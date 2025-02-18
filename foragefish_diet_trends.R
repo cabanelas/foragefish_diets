@@ -19,6 +19,7 @@
 
 library(tidyverse)
 library(RColorBrewer)
+library(patchwork)
 #library(gridExtra) 
 #library(cowplot)
 
@@ -517,8 +518,8 @@ prey_color_mappingLlopiznew <- c(
   "Hyperiidea" = "#9ACD32", #"#BABABA", 
   "Mysida" = "#878787",
   "Temora spp." = "#006647",
-  "Other" = "#1A1A1A",    
-  "Unknown" = "#FA8072" #"#B2182B", "#FA8072", "#6959CD", "#4A708B", "#D8BFD8"
+  "Other" = "#D8BFD8", #"#1A1A1A", 
+  "Unknown" = "#FA8072" #"#B2182B", "#6959CD", "#4A708B", "#D8BFD8"
 )
 
 # loop to plot
@@ -546,3 +547,69 @@ for (fish in fish_species_list) {
   
   print(plot)  
 }
+
+
+#            2018 and 2019 ONLY -----
+#### ------------------------------------------ #####
+#            Atl Mackerel and Butterfish ONLY -----
+#### ------------------------------------------ #####
+#            Llopiz_taxa grouped top 10 -----
+#### ------------------------------------------ #####
+
+#P_tri = Peprilus triacanthus = Butterfish
+#S_sco =	Scomber scombrus = Atlantic Mackerel
+selected_fish <- c("P_tri", "S_sco")
+
+diets_filtered <- diets_percent_Llopiz_taxa_g_new %>%
+  filter(FishSpecies %in% selected_fish)
+
+diets_filtered <- diets_filtered %>%
+  mutate(season = factor(season, levels = c("Spring", "Fall")),  # ensure Spring comes first
+         x_order = interaction(season, year, sep = " "))
+
+(plot_mackerel <- ggplot(filter(diets_filtered, FishSpecies == "S_sco"), 
+                        aes(x = x_order, 
+                            y = percent, fill = Llopiz_taxa)) +
+  geom_bar(stat = "identity", position = "fill") +  
+  scale_fill_manual(values = prey_color_mappingLlopiznew) +
+  theme_classic() +
+  labs(title = "Atlantic Mackerel",
+       y = "Diet Composition (%)") +  
+  theme(axis.text.x = element_text(hjust = 0.5, color = "black", size = 15),
+        axis.text.y = element_text(color = "black", size = 14),
+        axis.title.x = element_blank(),
+        axis.title.y = element_text(size = 17, face = "bold"),  
+        plot.title = element_text(hjust = 0.5, size = 18, face = "bold"),
+        legend.position = "none")  +
+    scale_y_continuous(expand = c(0, 0), 
+                       labels = scales::percent_format(scale = 100)))  
+
+(plot_butterfish <- ggplot(filter(diets_filtered, FishSpecies == "P_tri"), 
+                          aes(x = x_order, 
+                              y = percent, fill = Llopiz_taxa)) +
+  geom_bar(stat = "identity", position = "fill") +  
+  scale_fill_manual(values = prey_color_mappingLlopiznew) +
+  theme_classic() +
+  labs(title = "Butterfish",
+       y = "Diet Composition (%)") +  
+  theme(axis.text.x = element_text(angle = 0, hjust = 0.5, color = "black", size = 14),
+        axis.text.y = element_text(angle = 0, color = "black", size = 14),
+        axis.title.x = element_blank(),
+        axis.title.y = element_blank(),  
+        plot.title = element_text(hjust = 0.5, size = 18, face = "bold"),
+        legend.position = "right",  # Keep legend in one plot
+        legend.title = element_blank(),
+        legend.margin = margin(0, 0, 0, 0),
+        legend.spacing.y = unit(0.2, "cm"))  +
+    scale_y_continuous(expand = c(0, 0), 
+                       labels = scales::percent_format(scale = 100)))
+
+(final_plot <- plot_mackerel + 
+               plot_butterfish + 
+               plot_layout(guides = "collect"))
+
+ggsave("figures/AtlanticMackerel_Butterfish_Diet1.png", 
+      plot = final_plot, 
+      width = 10, height = 4, 
+      dpi = 300, 
+      units = "in")
