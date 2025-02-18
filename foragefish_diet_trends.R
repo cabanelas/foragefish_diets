@@ -81,11 +81,13 @@ diets <- diets %>%
 ## gut count is not always filled out - sometimes NA
 ## and sometimes it seems likes it's wrong (e.g. preyCount > gutCount)
 
+# redo gutCount column 
 diets <- diets %>%
   group_by(FishSpecies, cruise, station, FishNum) %>%
   mutate(gutCount = sum(preyCount, na.rm = TRUE)) %>%
   ungroup()
 
+# number of guts processed per season, yearb by predator species
 fish_counts <- diets %>%
   group_by(year, season, FishSpecies) %>%
   summarise(fish_processed = n_distinct(FishNum), .groups = "drop") %>%
@@ -116,37 +118,41 @@ diets <- diets %>%
     TRUE ~ NA_character_  # Assign NA if no match
   ))
 
-
-#### ------------------------------------------ #####
-#            Plots -----
-#### ------------------------------------------ #####
-
 #im setting the NAs in preyCount == 0 for now bc i dont know what they are
 diets <- diets %>%
   mutate(preyCount = ifelse(is.na(preyCount), 0, preyCount))
 
 
+#### ------------------------------------------ #####
+#            Plots -----
+#### ------------------------------------------ #####
+
 #            scientificName_preyTaxon -----
 #### ------------------------------------------ #####
 
-# Calculate diet composition (%) per fish species, year, and season
+# calculate diet composition (%) per fish species, year, and season
 diets_percent <- diets %>%
   group_by(FishSpecies, year, season, scientificName_preyTaxon) %>%
   summarise(total_prey = sum(preyCount, na.rm = TRUE), .groups = "drop") %>%
   group_by(FishSpecies, year, season) %>%
   mutate(percent = (total_prey / sum(total_prey, na.rm = TRUE)) * 100)
 
+# to make title the fish's common name
+fish_common_map <- diets %>%
+  select(FishSpecies, FishCommon) %>%
+  distinct() %>%
+  deframe() 
 
 fish_species_list <- unique(diets_percent$FishSpecies)
 
-# Loop through each FishSpecies and create a separate plot
+# loop through each FishSpecies and create plots
 for (fish in fish_species_list) {
   plot <- ggplot(filter(diets_percent, FishSpecies == fish), 
                  aes(x = interaction(year, season, sep = " "), 
                      y = percent, fill = scientificName_preyTaxon)) +
-    geom_bar(stat = "identity", position = "fill") +  # Stacked bars normalized to 100%
+    geom_bar(stat = "identity", position = "fill") +  
     theme_classic() +
-    labs(title = paste("Diet Composition of", fish),
+    labs(title = fish_common_map[fish],
          x = "Year & Season", 
          y = "Diet Composition (%)", 
          fill = "Prey Taxon") +
@@ -156,28 +162,24 @@ for (fish in fish_species_list) {
   print(plot)  
 }
 
-
-
-
-
 #            preyTaxon -----
 #### ------------------------------------------ #####
 
-# Calculate diet composition (%) per fish species, year, and season
+# calculate diet composition (%) per fish species, year, and season
 diets_percent_preyTaxon <- diets %>%
   group_by(FishSpecies, year, season, preyTaxon) %>%
   summarise(total_prey = sum(preyCount, na.rm = TRUE), .groups = "drop") %>%
   group_by(FishSpecies, year, season) %>%
   mutate(percent = (total_prey / sum(total_prey, na.rm = TRUE)) * 100)
 
-# Loop through each FishSpecies and create a separate plot
+# loop to plot
 for (fish in fish_species_list) {
   plot <- ggplot(filter(diets_percent_preyTaxon, FishSpecies == fish), 
                  aes(x = interaction(year, season, sep = " "), 
                      y = percent, fill = preyTaxon)) +
     geom_bar(stat = "identity", position = "fill") +  
     theme_classic() +
-    labs(title = paste("Diet Composition of", fish),
+    labs(title = fish_common_map[fish],
          x = "Year & Season", 
          y = "Diet Composition (%)", 
          fill = "Prey Taxon") +
@@ -186,7 +188,6 @@ for (fish in fish_species_list) {
   
   print(plot)  
 }
-
 
 
 #            preyTaxon grouped top 10 -----
@@ -224,16 +225,10 @@ diets_percent_preyTaxon_g <- diets_v1 %>%
   mutate(percent = (total_prey / sum(total_prey, na.rm = TRUE)) * 100)
 
 unique_prey <- unique(diets_percent_preyTaxon_g$preyTaxon)
-color_palette <- brewer.pal(n = 11, name = "Paired") #"Set3" or "Dark2"
+color_palette <- brewer.pal(n = 11, name = "RdGy") #"Paired", "Set3" or "Dark2"
 prey_color_mapping <- setNames(color_palette, unique_prey)
 
-# to make title the fish's common name
-fish_common_map <- diets %>%
-  select(FishSpecies, FishCommon) %>%
-  distinct() %>%
-  deframe() 
-
-# Loop through each FishSpecies and create a separate plot
+# loop to plot
 
 for (fish in fish_species_list) {
   plot <- ggplot(filter(diets_percent_preyTaxon_g, FishSpecies == fish), 
@@ -259,8 +254,7 @@ for (fish in fish_species_list) {
   print(plot)  
 }
 
-
-#####HEREEEE NEED TO FIX
+### SAME BUT OTHER PALETTE/COLOR OPTIONS
 # do the same but coloring unknown in like a bright color
 bright_colors <- c("#FF0000", "#00FF00", "#0000FF", "orange",  "#FF00FF",
                    "#00FFFF", "#800000", "#808000", "#008000", "#800080", 
@@ -323,20 +317,232 @@ for (fish in fish_species_list) {
 
 #            Llopiz_taxa grouped top 10 -----
 #### ------------------------------------------ #####
-# then do same with llopiz taxa group bc calanoid small better described
+# doing same with Llopiz_taxa bc calanoid small better described
 
 diets_v2 <- diets %>%
-  mutate(Llopiz_taxa = case_when(
+  mutate(Llopiz_taxa = case_when( # Thaliacea ??
     Llopiz_taxa %in% c("Unknown", "UnknownOther", "UnknownSoft") ~ "Unknown",  
     TRUE ~ Llopiz_taxa  # keep other values unchanged
   ))
 
+# fill in the NAs with some of the prey names in the scientificName_preyTaxon col
+diets_v2 <- diets_v2 %>%
+  mutate(Llopiz_taxa = ifelse(is.na(Llopiz_taxa), 
+                              scientificName_preyTaxon, Llopiz_taxa))
+
+# fill remaining NAs with prey names in the preyTaxon col
+diets_v2 <- diets_v2 %>%
+  mutate(Llopiz_taxa = ifelse(is.na(Llopiz_taxa), 
+                              preyTaxon, Llopiz_taxa))
+
+# group prey into broader categories:
+# Calanoida = candacia, acartia, CalanoidDigested, Eucalanus, Eurytemora, 
+##Paraeuchaeta, Pseudodiaptomas, Rhincalanus, Tortanus, Tortanus discaudatus, CalanoidSmall
+
+# Copepoda = CopepodDigested, CopepodUnknown, Corycaeus (cyclopoid), Cyclopoida, 
+##Monstrilloida, Microsetella, Sapphirina, Sapphirinidae
+
+# Mysida = "Mysida", "Neomysis", "Mysidae", "Mysis", "Mysis mixta", "Americamysis"'
+# FishItems = Ammodytes, Fish_Remains, FishEgg, FishLarvae, FishRemains, Larval_Fish
+# Appendicularia
+# Bivalvia
+# Amphipoda = Ampithoidae, Aoridae, Caprellidae, Corophiidae, Liljeborgiidae
+# Pteropoda = Clione, Clione limacina, Limacina, Limacina helicina, Thecosomata
+# Euphausiidae = Euphausia, Euphausiacea, Meganyctiphanes norvegica, 
+##Nematoscelis, Thysanoessa, Thysanopoda
+
+# Gammaridea = Gammarus
+# Hyperiidea = Hyperia, Hyperiella, Hyperiidae, Phronima, Phronimidae, Pronoidae, Themistella, Themisto
+# Decapoda = Caridea, Penaeidae
+
+# Temora spp. = Temora, Temora longicornis 
+# Other = Unknown 
+diets_v2 <- diets_v2 %>%
+  mutate(Llopiz_taxa = case_when(
+    Llopiz_taxa == "Oikopleura" ~ "Appendicularia",
+    Llopiz_taxa == "Neomysis" ~ "Mysida",
+    Llopiz_taxa == "Parathemisto" ~ "Hyperiidae",
+    Llopiz_taxa == "Gammarus" ~ "Gammaridea",
+    Llopiz_taxa == "Other" ~ "Unknown", 
+    Llopiz_taxa %in% c("Candacia", "Acartia", "CalanoidDigested", "Eucalanus", 
+                       "Eurytemora", "Paraeuchaeta", "Pseudodiaptomas", 
+                       "Rhincalanus", "Tortanus", "Tortanus discaudatus", 
+                       "CalanoidSmall") ~ "Calanoida",
+    
+    Llopiz_taxa %in% c("CopepodDigested", "CopepodUnknown", "Corycaeus", 
+                       "Cyclopoida", "Monstrilloida", "Microsetella", 
+                       "Sapphirina", "Sapphirinidae") ~ "Copepoda",
+    
+    Llopiz_taxa %in% c("Mysida", "Neomysis", "Mysidae", "Mysis", "Mysis mixta", 
+                       "Americamysis") ~ "Mysida",
+    
+    Llopiz_taxa %in% c("Ammodytes", "Fish_Remains", "FishEgg", "FishLarvae", 
+                       "FishRemains", "Larval_Fish") ~ "FishItems",
+    
+    Llopiz_taxa %in% c("Ampithoidae", "Aoridae", "Caprellidae", "Corophiidae", 
+                       "Liljeborgiidae") ~ "Amphipoda",
+    
+    Llopiz_taxa %in% c("Clione", "Clione limacina", "Limacina", 
+                       "Limacina helicina", "Thecosomata") ~ "Pteropoda",
+    
+    Llopiz_taxa %in% c("Euphausia", "Euphausiacea", "Meganyctiphanes norvegica", 
+                       "Nematoscelis", "Thysanoessa", 
+                       "Thysanopoda") ~ "Euphausiidae",
+    
+    Llopiz_taxa %in% c("Hyperia", "Hyperiella", "Hyperiidae", "Phronima", 
+                       "Phronimidae", "Pronoidae", "Themistella", 
+                       "Themisto") ~ "Hyperiidea",
+    
+    Llopiz_taxa %in% c("Caridea", "Penaeidae") ~ "Decapoda",
+    
+    Llopiz_taxa %in% c("Temora", "Temora longicornis") ~ "Temora spp.",
+    
+    TRUE ~ Llopiz_taxa  # everything else unchanged
+  ))
+
+# ??? left as is
+# Calanus
+# Caligidae = sea lice = could go into parasite or Copepoda = Caligus
+# Cirripedia (barnacle) = Arthropoda thecostraca
+# there is a Crustacea group
+# Cumacea = Arthropoda malacostraca 
+# there is a Gastropoda group
+# there is a Isopoda group
+# Hydrachnidae = water mite = Arthropoda = possibly into parasites
+# Metridia = calanoid copepod 
+# Oithona = copepoda
+# Penilia = Artropoda ctenopoda = Penilia avirostris
+# Pleuromamma = calanoida 
+# Podon = Arthropoda onychopoda
+# Tomopteris = annelid 
+# Ostracoda
+# Haustoriidae = Arthropoda crustacean malacostraca 
+# Animalia
+# Lycaenidae = butterfly ??
+# Melittidae = beetles??
+
 # top 10 most common Llopiz_taxa across all data
-top_10_Llopiz <- diets_v1 %>%
+top_10_Llopiz <- diets_v2 %>%
   group_by(Llopiz_taxa) %>%
   summarise(total_prey = sum(preyCount, na.rm = TRUE)) %>%
   arrange(desc(total_prey)) %>%
   slice_head(n = 10) %>%
   pull(Llopiz_taxa) 
 
-##maybe fill in the NAs with some of the other prey name cols
+diets_v3 <- diets_v2 %>%
+  mutate(Llopiz_taxa = case_when(
+    Llopiz_taxa %in% top_10_Llopiz ~ Llopiz_taxa,  # keep top 10 prey taxa
+    TRUE ~ "Other"  # group all other prey into "Other"
+  ))
+
+diets_percent_Llopiz_taxa_g <- diets_v3 %>%
+  group_by(FishSpecies, year, season, Llopiz_taxa) %>%
+  summarise(total_prey = sum(preyCount, na.rm = TRUE), .groups = "drop") %>%
+  group_by(FishSpecies, year, season) %>%
+  mutate(percent = (total_prey / sum(total_prey, na.rm = TRUE)) * 100)
+
+unique_preyLlopiz <- unique(diets_percent_Llopiz_taxa_g$Llopiz_taxa)
+prey_color_mappingLlopiz <- setNames(color_palette, unique_preyLlopiz)
+
+# loop to plot
+
+for (fish in fish_species_list) {
+  plot <- ggplot(filter(diets_percent_Llopiz_taxa_g, FishSpecies == fish), 
+                 aes(x = interaction(season, year, sep = " "), 
+                     y = percent, fill = Llopiz_taxa)) +
+    geom_bar(stat = "identity", position = "fill") +  
+    scale_fill_manual(values = prey_color_mappingLlopiz) +
+    theme_classic() +
+    labs(title = fish_common_map[fish],
+         y = "Diet Composition (%)") +  
+    theme(axis.text.x = element_text(angle = 0, hjust = 0.5, color = "black", size = 14),
+          axis.text.y = element_text(angle = 0, color = "black", size = 14),
+          axis.title.x = element_blank(),
+          axis.title.y = element_text(size = 16),  
+          plot.title = element_text(hjust = 0.5, size = 18, face = "bold"),
+          legend.position = "right",
+          legend.title = element_blank(),
+          legend.margin = margin(0, 0, 0, 0),
+          legend.spacing.y = unit(0.2, "cm")) +
+    scale_y_continuous(expand = c(0, 0), 
+                       labels = scales::percent_format(scale = 100))
+  
+  print(plot)  
+}
+
+
+#            2018 and 2019 ONLY -----
+#### ------------------------------------------ #####
+#            Llopiz_taxa grouped top 10 -----
+#### ------------------------------------------ #####
+
+top_10_Llopiz_new <- diets_v2 %>%
+  filter(year %in% c(2018, 2019) & 
+           season %in% c("Fall", "Spring")) %>%
+  group_by(Llopiz_taxa) %>%
+  summarise(total_prey = sum(preyCount, na.rm = TRUE)) %>%
+  arrange(desc(total_prey)) %>%
+  slice_head(n = 11) %>%
+  pull(Llopiz_taxa) 
+
+diets_v4 <- diets_v2 %>%
+  mutate(Llopiz_taxa = case_when(
+    Llopiz_taxa %in% top_10_Llopiz_new ~ Llopiz_taxa,  # keep top 10 prey taxa
+    TRUE ~ "Other"  # group all other prey into "Other"
+  ))
+
+diets_percent_Llopiz_taxa_g_new <- diets_v4 %>%
+  filter(year %in% c(2018, 2019) & season %in% c("Fall", "Spring")) %>%
+  group_by(FishSpecies, year, season, Llopiz_taxa) %>%
+  summarise(total_prey = sum(preyCount, na.rm = TRUE), .groups = "drop") %>%
+  group_by(FishSpecies, year, season) %>%
+  mutate(percent = (total_prey / sum(total_prey, na.rm = TRUE)) * 100,
+         Llopiz_taxa = factor(Llopiz_taxa, 
+                              levels = c(setdiff(top_10_Llopiz_new, 
+                                                 c("Other", "Unknown")), 
+                                         "Other", "Unknown")))  # Force order
+
+unique_preyLlopiz_new <- unique(diets_percent_Llopiz_taxa_g_new$Llopiz_taxa)
+
+#make custom color palette (to avoid white, and add more colors)
+#print(color_palette)
+prey_color_mappingLlopiznew <- c(
+  "Appendicularia" = "#67001F",
+  "Calanus" = "#664700",
+  "Calanoida" = "#CD950C", #"#D6604D",
+  "Centropages" = "#FFB90F", #E49B5D", #"#F4A582", 
+  "Chaetognatha" = "#6E8B3D",#"#8C510A"
+  "Copepoda" = "#c7522a", #"#A63D40"maybe it looks too similar to B218
+  "Euphausiidae" = "#4D4D4D",
+  "Hyperiidea" = "#9ACD32", #"#BABABA", 
+  "Mysida" = "#878787",
+  "Temora spp." = "#006647",
+  "Other" = "#1A1A1A",    
+  "Unknown" = "#FA8072" #"#B2182B", "#FA8072", "#6959CD", "#4A708B", "#D8BFD8"
+)
+
+# loop to plot
+for (fish in fish_species_list) {
+  plot <- ggplot(filter(diets_percent_Llopiz_taxa_g_new, 
+                        FishSpecies == fish), 
+                 aes(x = interaction(season, year, sep = " "), 
+                     y = percent, fill = Llopiz_taxa)) +
+    geom_bar(stat = "identity", position = "fill") +  
+    scale_fill_manual(values = prey_color_mappingLlopiznew) +
+    theme_classic() +
+    labs(title = fish_common_map[fish],
+         y = "Diet Composition (%)") +  
+    theme(axis.text.x = element_text(angle = 0, hjust = 0.5, color = "black", size = 14),
+          axis.text.y = element_text(angle = 0, color = "black", size = 14),
+          axis.title.x = element_blank(),
+          axis.title.y = element_text(size = 16),  
+          plot.title = element_text(hjust = 0.5, size = 18, face = "bold"),
+          legend.position = "right",
+          legend.title = element_blank(),
+          legend.margin = margin(0, 0, 0, 0),
+          legend.spacing.y = unit(0.2, "cm")) +
+    scale_y_continuous(expand = c(0, 0), 
+                       labels = scales::percent_format(scale = 100))
+  
+  print(plot)  
+}
