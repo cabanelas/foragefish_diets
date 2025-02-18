@@ -267,18 +267,32 @@ bright_colors <- c("#FF0000", "#00FF00", "#0000FF", "orange",  "#FF00FF",
                    "#000080", "#808080", "#C0C0C0", "#FF6347", "#FFD700", 
                    "#32CD32", "#FF1493", "#B22222", "#FF4500", "#ADFF2F")
 
-custom_palette <- c(
+custom_palette <-  c(
   "Unknown" = "#E63946",  # Bright Red (stands out)
+  "Other" = "#8D99AE",  # Neutral Gray for "Other"
   "Calanoida" = "#A8DADC",  # Soft Cyan
-  "Euphausiidae" = "#457B9D",  # Muted Blue
-  "Hyperiidea" = "#1D3557",  # Dark Blue
-  "Pteropoda" = "#F4A261",  # Warm Orange
-  "Copepoda" = "#E9C46A",  # Yellow-Gold
-  "Other" = "#8D99AE",  # Neutral Gray
-  "Amphipoda" = "#2A9D8F",  # Green-Teal
-  "Decapoda" = "#264653",  # Dark Teal
-  "Chaetognatha" = "#6A0572",  # Deep Purple
-  "Ostracoda" = "#D4A5A5"  # Soft Pink
+  "Calanus spp." = "#457B9D",  # Muted Blue
+  "Centropages spp." = "#1D3557",  # Dark Blue
+  "Euphausia spp." = "#F4A261",  # Warm Orange
+  "Neomysis spp." = "#E9C46A",  # Yellow-Gold
+  "Oikopleura spp." = "#2A9D8F",  # Green-Teal
+  "Temora longicornis" = "#264653",  # Dark Teal
+  "Appendicularia" = "#6A0572",  # Deep Purple
+  "CalanoidSmall" = "#D4A5A5"  # Soft Pink
+)
+
+custom_palette <- c(
+  "Unknown" = "#D73027",  # Strong Red (stands out)
+  "Other" = "#7E7E7E",  # Neutral Gray (background)
+  "Calanoida" = "#1F78B4",  # Deep Blue
+  "Calanus spp." = "#6BAED6",  # Soft Blue
+  "Centropages spp." = "#A6CEE3",  # Light Blue
+  "Euphausia spp." = "#33A02C",  # Deep Green
+  "Neomysis spp." = "#B2DF8A",  # Light Green
+  "Oikopleura spp." = "#FDAE61",  # Warm Orange
+  "Temora longicornis" = "#F46D43",  # Orange-Red
+  "Appendicularia" = "#FDBF6F",  # Soft Peach
+  "CalanoidSmall" = "#CAB2D6"  # Soft Purple
 )
 
 for (fish in fish_species_list) {
@@ -309,6 +323,20 @@ for (fish in fish_species_list) {
 
 #            Llopiz_taxa grouped top 10 -----
 #### ------------------------------------------ #####
-
-
 # then do same with llopiz taxa group bc calanoid small better described
+
+diets_v2 <- diets %>%
+  mutate(Llopiz_taxa = case_when(
+    Llopiz_taxa %in% c("Unknown", "UnknownOther", "UnknownSoft") ~ "Unknown",  
+    TRUE ~ Llopiz_taxa  # keep other values unchanged
+  ))
+
+# top 10 most common Llopiz_taxa across all data
+top_10_Llopiz <- diets_v1 %>%
+  group_by(Llopiz_taxa) %>%
+  summarise(total_prey = sum(preyCount, na.rm = TRUE)) %>%
+  arrange(desc(total_prey)) %>%
+  slice_head(n = 10) %>%
+  pull(Llopiz_taxa) 
+
+##maybe fill in the NAs with some of the other prey name cols
