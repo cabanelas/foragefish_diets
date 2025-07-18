@@ -123,7 +123,7 @@ diets <- diets %>%
 diets <- diets %>%
   mutate(preyCount = ifelse(is.na(preyCount), 0, preyCount))
 
-
+colnames(diets)
 #### ------------------------------------------ #####
 #            Plots -----
 #### ------------------------------------------ #####
@@ -613,3 +613,88 @@ ggsave("figures/AtlanticMackerel_Butterfish_Diet1.png",
       width = 10, height = 4, 
       dpi = 300, 
       units = "in")
+
+
+
+
+#            ALL YRS AVAILABLE -----
+#### ------------------------------------------ #####
+#            ALL FISH -----
+#### ------------------------------------------ #####
+#            Llopiz_taxa grouped top 10 -----
+#### ------------------------------------------ #####
+
+for (fish in fish_species_list) {
+  plot <- ggplot(filter(diets_percent_Llopiz_taxa_g, 
+                        FishSpecies == fish), 
+                 aes(x = interaction(season, year, sep = " "), 
+                     y = percent, fill = Llopiz_taxa)) +
+    geom_bar(stat = "identity", position = "fill") +  
+    scale_fill_manual(values = prey_color_mappingLlopiznew) +
+    theme_classic() +
+    labs(title = fish_common_map[fish],
+         y = "Diet Composition (%)") +  
+    theme(axis.text.x = element_text(angle = 0, hjust = 0.5, color = "black", size = 14),
+          axis.text.y = element_text(angle = 0, color = "black", size = 14),
+          axis.title.x = element_blank(),
+          axis.title.y = element_text(size = 16),  
+          plot.title = element_text(hjust = 0.5, size = 18, face = "bold"),
+          legend.position = "right",
+          legend.title = element_blank(),
+          legend.margin = margin(0, 0, 0, 0),
+          legend.spacing.y = unit(0.2, "cm")) +
+    scale_y_continuous(expand = c(0, 0), 
+                       labels = scales::percent_format(scale = 100))
+  
+  print(plot)  
+}
+
+
+#### ------------------------------------------ #####
+#            Atlantic Mackerel -----
+#### ------------------------------------------ #####
+#            Llopiz_taxa grouped top 12 -----
+#### ------------------------------------------ #####
+# top 12 by spp/predator
+AtlMack <- diets_v2 %>%
+  filter(FishSpecies == "S_sco")
+  
+# top 12 most common Llopiz_taxa across all data
+top_12_atlmack <- AtlMack %>%
+  group_by(Llopiz_taxa) %>%
+  summarise(total_prey = sum(preyCount, na.rm = TRUE)) %>%
+  arrange(desc(total_prey)) %>%
+  slice_head(n = 12) %>%
+  pull(Llopiz_taxa) 
+
+diets_v5 <- AtlMack %>%
+  mutate(Llopiz_taxa = case_when(
+    Llopiz_taxa %in% top_12_atlmack ~ Llopiz_taxa,  # keep top 10 prey taxa
+    TRUE ~ "Other"  # group all other prey into "Other"
+  ))
+
+diets_percent_AtlMack_taxa_g <- diets_v5 %>%
+  group_by(FishSpecies, year, season, Llopiz_taxa) %>%
+  summarise(total_prey = sum(preyCount, na.rm = TRUE), .groups = "drop") %>%
+  group_by(FishSpecies, year, season) %>%
+  mutate(percent = (total_prey / sum(total_prey, na.rm = TRUE)) * 100)
+
+ggplot(diets_percent_AtlMack_taxa_g, 
+       aes(x = interaction(season, year, sep = " "), 
+           y = percent, fill = Llopiz_taxa)) +
+  geom_bar(stat = "identity", position = "fill") +  
+  #scale_fill_manual(values = prey_color_mappingLlopiznew) +
+  theme_classic() +
+  labs(title = "Atlantic Mackerel",
+       y = "Diet Composition (%)") +  
+  theme(axis.text.x = element_text(angle = 0, hjust = 0.5, color = "black", size = 14),
+        axis.text.y = element_text(angle = 0, color = "black", size = 14),
+        axis.title.x = element_blank(),
+        axis.title.y = element_text(size = 16),  
+        plot.title = element_text(hjust = 0.5, size = 18, face = "bold"),
+        legend.position = "right",
+        legend.title = element_blank(),
+        legend.margin = margin(0, 0, 0, 0),
+        legend.spacing.y = unit(0.2, "cm")) +
+  scale_y_continuous(expand = c(0, 0), 
+                     labels = scales::percent_format(scale = 100))

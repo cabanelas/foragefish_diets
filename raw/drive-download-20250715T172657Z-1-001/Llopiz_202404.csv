@@ -1,0 +1,466 @@
+"CRUISE6","STATION","STRATUM","TOW","AVGDEPTH","BEGLAT","BEGLON","ENDLAT","ENDLON","SPECIES","ACTION_NAME","VALUE","ORGANISM_ID"
+"202404","0311","01050","001",34,4118.4963,7058.7141,4118.8985,7057.5024,"Alosa aestivalis (blueback herring)","Llopiz Request - SNE","Freeze for Llopiz at -80",76831
+"202404","0311","01050","001",34,4118.4963,7058.7141,4118.8985,7057.5024,"Alosa aestivalis (blueback herring)","Llopiz Request - SNE","Freeze for Llopiz at -80",76829
+"202404","0311","01050","001",34,4118.4963,7058.7141,4118.8985,7057.5024,"Alosa aestivalis (blueback herring)","Llopiz Request - SNE","Freeze for Llopiz at -80",76837
+"202404","0311","01050","001",34,4118.4963,7058.7141,4118.8985,7057.5024,"Alosa aestivalis (blueback herring)","Llopiz Request - SNE","Freeze for Llopiz at -80",76833
+"202404","0311","01050","001",34,4118.4963,7058.7141,4118.8985,7057.5024,"Alosa aestivalis (blueback herring)","Llopiz Request - SNE","Freeze for Llopiz at -80",76832
+"202404","0311","01050","001",34,4118.4963,7058.7141,4118.8985,7057.5024,"Alosa pseudoharengus (alewife)","Llopiz Request - SNE","Freeze for Llopiz at -80",76856
+"202404","0311","01050","001",34,4118.4963,7058.7141,4118.8985,7057.5024,"Alosa pseudoharengus (alewife)","Llopiz Request - SNE","Freeze for Llopiz at -80",76858
+"202404","0335","01060","007",60,4044.4895,7104.8554,4044.9108,7103.603,"Alosa pseudoharengus (alewife)","Llopiz Request - SNE","Freeze for Llopiz at -80",88324
+"202404","0378","01030","002",117,3939.6652,7217.6792,3940.6395,7217.3396,"Alosa pseudoharengus (alewife)","Llopiz Request - SNE","Freeze for Llopiz at -80",102076
+"202404","0378","01030","002",117,3939.6652,7217.6792,3940.6395,7217.3396,"Alosa pseudoharengus (alewife)","Llopiz Request - SNE","Freeze for Llopiz at -80",102071
+"202404","0329","01090","001",49,4045.3778,7022.4541,4045.4783,7021.1267,"Alosa pseudoharengus (alewife)","Llopiz Request - SNE","Freeze for Llopiz at -80",84794
+"202404","0341","01060","005",59,4055.6259,7126.4724,4054.6776,7126.7841,"Alosa pseudoharengus (alewife)","Llopiz Request - SNE","Freeze for Llopiz at -80",91599
+"202404","0341","01060","005",59,4055.6259,7126.4724,4054.6776,7126.7841,"Alosa pseudoharengus (alewife)","Llopiz Request - SNE","Freeze for Llopiz at -80",91598
+"202404","0331","01060","003",65,4038.754,7047.7221,4038.8448,7046.4507,"Alosa pseudoharengus (alewife)","Llopiz Request - SNE","Freeze for Llopiz at -80",86215
+"202404","0378","01030","002",117,3939.6652,7217.6792,3940.6395,7217.3396,"Alosa pseudoharengus (alewife)","Llopiz Request - SNE","Freeze for Llopiz at -80",102043
+"202404","0378","01030","002",117,3939.6652,7217.6792,3940.6395,7217.3396,"Alosa pseudoharengus (alewife)","Llopiz Request - SNE","Freeze for Llopiz at -80",102036
+"202404","0329","01090","001",49,4045.3778,7022.4541,4045.4783,7021.1267,"Alosa pseudoharengus (alewife)","Llopiz Request - SNE","Freeze for Llopiz at -80",84797
+"202404","0378","01030","002",117,3939.6652,7217.6792,3940.6395,7217.3396,"Alosa pseudoharengus (alewife)","Llopiz Request - SNE","Freeze for Llopiz at -80",101900
+"202404","0623","01190","006",54,4146.5104,6719.5793,4147.3864,6720.1618,"Alosa pseudoharengus (alewife)","Llopiz Request - GB","Freeze for Llopiz at -80",174080
+"202404","0333","01060","006",72,4035.0933,7101.0631,4035.2042,7059.7651,"Alosa pseudoharengus (alewife)","Llopiz Request - SNE","Freeze for Llopiz at -80",86941
+"202404","0311","01050","001",34,4118.4963,7058.7141,4118.8985,7057.5024,"Alosa pseudoharengus (alewife)","Llopiz Request - SNE","Freeze for Llopiz at -80",76855
+"202404","0311","01050","001",34,4118.4963,7058.7141,4118.8985,7057.5024,"Alosa pseudoharengus (alewife)","Llopiz Request - SNE","Freeze for Llopiz at -80",76854
+"202404","0311","01050","001",34,4118.4963,7058.7141,4118.8985,7057.5024,"Alosa pseudoharengus (alewife)","Llopiz Request - SNE","Freeze for Llopiz at -80",76853
+"202404","0394","01100","001",87,4022.6147,7032.5281,4022.1516,7033.6981,"Alosa pseudoharengus (alewife)","Llopiz Request - SNE","Freeze for Llopiz at -80",107061
+"202404","0551","01200","007",52,4150.2639,6755.1973,4149.6161,6756.2021,"Alosa pseudoharengus (alewife)","Llopiz Request - GB","Freeze for Llopiz at -80",154459
+"202404","0335","01060","007",60,4044.4895,7104.8554,4044.9108,7103.603,"Alosa pseudoharengus (alewife)","Llopiz Request - SNE","Freeze for Llopiz at -80",88329
+"202404","0290","01050","005",35,4052.8969,7205.6818,4053.3331,7204.5573,"Ammodytes dubius (northern sand lance)","Llopiz Request - SNE","Freeze for Llopiz at -80",69672
+"202404","0290","01050","005",35,4052.8969,7205.6818,4053.3331,7204.5573,"Ammodytes dubius (northern sand lance)","Llopiz Request - SNE","Freeze for Llopiz at -80",69673
+"202404","0553","01220","001",193,4154.5161,6808.7552,4153.9065,6809.8196,"Clupea harengus (Atlantic herring)","Llopiz Request - GB","Freeze for Llopiz at -80",154581
+"202404","0553","01220","001",193,4154.5161,6808.7552,4153.9065,6809.8196,"Clupea harengus (Atlantic herring)","Llopiz Request - GB","Freeze for Llopiz at -80",154579
+"202404","0516","01250","002",49,4136.5216,6940.582,4135.8998,6939.5692,"Clupea harengus (Atlantic herring)","Llopiz Request - GB","Freeze for Llopiz at -80",142594
+"202404","0516","01250","002",49,4136.5216,6940.582,4135.8998,6939.5692,"Clupea harengus (Atlantic herring)","Llopiz Request - GB","Freeze for Llopiz at -80",142593
+"202404","0516","01250","002",49,4136.5216,6940.582,4135.8998,6939.5692,"Clupea harengus (Atlantic herring)","Llopiz Request - GB","Freeze for Llopiz at -80",142592
+"202404","0617","01210","002",63,4206.8595,6701.2625,4205.9814,6700.5933,"Clupea harengus (Atlantic herring)","Llopiz Request - GB","Freeze for Llopiz at -80",171545
+"202404","0617","01210","002",63,4206.8595,6701.2625,4205.9814,6700.5933,"Clupea harengus (Atlantic herring)","Llopiz Request - GB","Freeze for Llopiz at -80",171560
+"202404","0617","01210","002",63,4206.8595,6701.2625,4205.9814,6700.5933,"Clupea harengus (Atlantic herring)","Llopiz Request - GB","Freeze for Llopiz at -80",171553
+"202404","0520","01230","002",110,4145.599,6945.1617,4146.3376,6946.1,"Clupea harengus (Atlantic herring)","Llopiz Request - GB","Freeze for Llopiz at -80",143997
+"202404","0520","01230","002",110,4145.599,6945.1617,4146.3376,6946.1,"Clupea harengus (Atlantic herring)","Llopiz Request - GB","Freeze for Llopiz at -80",143996
+"202404","0520","01230","002",110,4145.599,6945.1617,4146.3376,6946.1,"Clupea harengus (Atlantic herring)","Llopiz Request - GB","Freeze for Llopiz at -80",143998
+"202404","0520","01230","002",110,4145.599,6945.1617,4146.3376,6946.1,"Clupea harengus (Atlantic herring)","Llopiz Request - GB","Freeze for Llopiz at -80",143999
+"202404","0615","01200","006",48,4203.4317,6716.5157,4204.3738,6717.082,"Clupea harengus (Atlantic herring)","Llopiz Request - GB","Freeze for Llopiz at -80",171097
+"202404","0615","01200","006",48,4203.4317,6716.5157,4204.3738,6717.082,"Clupea harengus (Atlantic herring)","Llopiz Request - GB","Freeze for Llopiz at -80",171096
+"202404","0615","01200","006",48,4203.4317,6716.5157,4204.3738,6717.082,"Clupea harengus (Atlantic herring)","Llopiz Request - GB","Freeze for Llopiz at -80",171087
+"202404","0553","01220","001",193,4154.5161,6808.7552,4153.9065,6809.8196,"Clupea harengus (Atlantic herring)","Llopiz Request - GB","Freeze for Llopiz at -80",154582
+"202404","0311","01050","001",34,4118.4963,7058.7141,4118.8985,7057.5024,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",76836
+"202404","0311","01050","001",34,4118.4963,7058.7141,4118.8985,7057.5024,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",76842
+"202404","0311","01050","001",34,4118.4963,7058.7141,4118.8985,7057.5024,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",76845
+"202404","0311","01050","001",34,4118.4963,7058.7141,4118.8985,7057.5024,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",76848
+"202404","0311","01050","001",34,4118.4963,7058.7141,4118.8985,7057.5024,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",76850
+"202404","0292","01050","004",41,4051.2238,7153.3815,4051.2346,7152.1212,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",69961
+"202404","0277","01010","001",42,4013.0333,7311.2397,4012.9502,7310.0072,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",66180
+"202404","0277","01010","001",42,4013.0333,7311.2397,4012.9502,7310.0072,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",66184
+"202404","0277","01010","001",42,4013.0333,7311.2397,4012.9502,7310.0072,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",66185
+"202404","0277","01010","001",42,4013.0333,7311.2397,4012.9502,7310.0072,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",66186
+"202404","0259","01010","007",31,4017.7471,7345.9701,4018.231,7344.8246,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",61163
+"202404","0305","01050","003",35,4118.4057,7124.3654,4118.8755,7123.2038,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",74270
+"202404","0305","01050","003",35,4118.4057,7124.3654,4118.8755,7123.2038,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",74280
+"202404","0305","01050","003",35,4118.4057,7124.3654,4118.8755,7123.2038,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",74286
+"202404","0305","01050","003",35,4118.4057,7124.3654,4118.8755,7123.2038,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",74288
+"202404","0247","01010","006",35,3950.4421,7335.2013,3950.9917,7334.1798,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",56762
+"202404","0247","01010","006",35,3950.4421,7335.2013,3950.9917,7334.1798,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",56769
+"202404","0247","01010","006",35,3950.4421,7335.2013,3950.9917,7334.1798,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",56774
+"202404","0267","01010","003",32,4024.7888,7321.0448,4024.951,7319.8019,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",63413
+"202404","0267","01010","003",32,4024.7888,7321.0448,4024.951,7319.8019,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",63423
+"202404","0267","01010","003",32,4024.7888,7321.0448,4024.951,7319.8019,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",63425
+"202404","0267","01010","003",32,4024.7888,7321.0448,4024.951,7319.8019,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",63427
+"202404","0267","01010","003",32,4024.7888,7321.0448,4024.951,7319.8019,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",63428
+"202404","0277","01010","001",42,4013.0333,7311.2397,4012.9502,7310.0072,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",66187
+"202404","0305","01050","003",35,4118.4057,7124.3654,4118.8755,7123.2038,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",74289
+"202404","0259","01010","007",31,4017.7471,7345.9701,4018.231,7344.8246,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",61069
+"202404","0259","01010","007",31,4017.7471,7345.9701,4018.231,7344.8246,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",61082
+"202404","0259","01010","007",31,4017.7471,7345.9701,4018.231,7344.8246,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",61086
+"202404","0319","01090","005",34,4114.0096,7029.9127,4114.5499,7028.7841,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",80463
+"202404","0305","01050","003",35,4118.4057,7124.3654,4118.8755,7123.2038,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",73472
+"202404","0305","01050","003",35,4118.4057,7124.3654,4118.8755,7123.2038,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",73502
+"202404","0319","01090","005",34,4114.0096,7029.9127,4114.5499,7028.7841,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",80465
+"202404","0319","01090","005",34,4114.0096,7029.9127,4114.5499,7028.7841,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",80467
+"202404","0319","01090","005",34,4114.0096,7029.9127,4114.5499,7028.7841,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",80468
+"202404","0319","01090","005",34,4114.0096,7029.9127,4114.5499,7028.7841,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",80469
+"202404","0337","01060","001",61,4047.091,7118.5148,4048.0719,7118.7386,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",88552
+"202404","0327","01090","002",43,4043.1791,6956.2057,4043.1962,6954.9057,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",83351
+"202404","0281","01010","005",45,4027.3298,7233.1838,4027.3351,7231.9192,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",66930
+"202404","0281","01010","005",45,4027.3298,7233.1838,4027.3351,7231.9192,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",66932
+"202404","0305","01050","003",35,4118.4057,7124.3654,4118.8755,7123.2038,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",73505
+"202404","0305","01050","003",35,4118.4057,7124.3654,4118.8755,7123.2038,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",73512
+"202404","0305","01050","003",35,4118.4057,7124.3654,4118.8755,7123.2038,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",73516
+"202404","0290","01050","005",35,4052.8969,7205.6818,4053.3331,7204.5573,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",69585
+"202404","0290","01050","005",35,4052.8969,7205.6818,4053.3331,7204.5573,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",69586
+"202404","0317","01090","004",35,4109.9622,7039.3756,4110.3633,7038.1827,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",79875
+"202404","0259","01010","007",31,4017.7471,7345.9701,4018.231,7344.8246,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",61041
+"202404","0259","01010","007",31,4017.7471,7345.9701,4018.231,7344.8246,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",61075
+"202404","0281","01010","005",45,4027.3298,7233.1838,4027.3351,7231.9192,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",66923
+"202404","0281","01010","005",45,4027.3298,7233.1838,4027.3351,7231.9192,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",66927
+"202404","0281","01010","005",45,4027.3298,7233.1838,4027.3351,7231.9192,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",66928
+"202404","0317","01090","004",35,4109.9622,7039.3756,4110.3633,7038.1827,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",79854
+"202404","0317","01090","004",35,4109.9622,7039.3756,4110.3633,7038.1827,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",79857
+"202404","0317","01090","004",35,4109.9622,7039.3756,4110.3633,7038.1827,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",79863
+"202404","0317","01090","004",35,4109.9622,7039.3756,4110.3633,7038.1827,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",79869
+"202404","0247","01010","006",35,3950.4421,7335.2013,3950.9917,7334.1798,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",56711
+"202404","0247","01010","006",35,3950.4421,7335.2013,3950.9917,7334.1798,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",56780
+"202404","0290","01050","005",35,4052.8969,7205.6818,4053.3331,7204.5573,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",69582
+"202404","0290","01050","005",35,4052.8969,7205.6818,4053.3331,7204.5573,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",69587
+"202404","0290","01050","005",35,4052.8969,7205.6818,4053.3331,7204.5573,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",69588
+"202404","0292","01050","004",41,4051.2238,7153.3815,4051.2346,7152.1212,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",69929
+"202404","0292","01050","004",41,4051.2238,7153.3815,4051.2346,7152.1212,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",69933
+"202404","0292","01050","004",41,4051.2238,7153.3815,4051.2346,7152.1212,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",69935
+"202404","0292","01050","004",41,4051.2238,7153.3815,4051.2346,7152.1212,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",69957
+"202404","0337","01060","001",61,4047.091,7118.5148,4048.0719,7118.7386,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",88541
+"202404","0337","01060","001",61,4047.091,7118.5148,4048.0719,7118.7386,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",88547
+"202404","0337","01060","001",61,4047.091,7118.5148,4048.0719,7118.7386,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",88556
+"202404","0259","01010","007",31,4017.7471,7345.9701,4018.231,7344.8246,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",61157
+"202404","0259","01010","007",31,4017.7471,7345.9701,4018.231,7344.8246,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",61160
+"202404","0259","01010","007",31,4017.7471,7345.9701,4018.231,7344.8246,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",61161
+"202404","0259","01010","007",31,4017.7471,7345.9701,4018.231,7344.8246,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",61162
+"202404","0331","01060","003",65,4038.754,7047.7221,4038.8448,7046.4507,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",85640
+"202404","0331","01060","003",65,4038.754,7047.7221,4038.8448,7046.4507,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",85656
+"202404","0333","01060","006",72,4035.0933,7101.0631,4035.2042,7059.7651,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",86476
+"202404","0631","01160","007",96,4124.7123,6622.8232,4125.5664,6623.4216,"Peprilus triacanthus (butterfish)","Llopiz Request - GB","Freeze for Llopiz at -80",175944
+"202404","0615","01200","006",48,4203.4317,6716.5157,4204.3738,6717.082,"Peprilus triacanthus (butterfish)","Llopiz Request - GB","Freeze for Llopiz at -80",170866
+"202404","0615","01200","006",48,4203.4317,6716.5157,4204.3738,6717.082,"Peprilus triacanthus (butterfish)","Llopiz Request - GB","Freeze for Llopiz at -80",170874
+"202404","0615","01200","006",48,4203.4317,6716.5157,4204.3738,6717.082,"Peprilus triacanthus (butterfish)","Llopiz Request - GB","Freeze for Llopiz at -80",170876
+"202404","0631","01160","007",96,4124.7123,6622.8232,4125.5664,6623.4216,"Peprilus triacanthus (butterfish)","Llopiz Request - GB","Freeze for Llopiz at -80",175967
+"202404","0621","01190","009",59,4153.3596,6703.045,4152.5526,6703.8824,"Peprilus triacanthus (butterfish)","Llopiz Request - GB","Freeze for Llopiz at -80",173136
+"202404","0621","01190","009",59,4153.3596,6703.045,4152.5526,6703.8824,"Peprilus triacanthus (butterfish)","Llopiz Request - GB","Freeze for Llopiz at -80",173140
+"202404","0621","01190","009",59,4153.3596,6703.045,4152.5526,6703.8824,"Peprilus triacanthus (butterfish)","Llopiz Request - GB","Freeze for Llopiz at -80",173148
+"202404","0631","01160","007",96,4124.7123,6622.8232,4125.5664,6623.4216,"Peprilus triacanthus (butterfish)","Llopiz Request - GB","Freeze for Llopiz at -80",175928
+"202404","0475","01130","005",58,4057.4818,6748.7244,4057.2995,6750.0457,"Peprilus triacanthus (butterfish)","Llopiz Request - GB","Freeze for Llopiz at -80",126658
+"202404","0475","01130","005",58,4057.4818,6748.7244,4057.2995,6750.0457,"Peprilus triacanthus (butterfish)","Llopiz Request - GB","Freeze for Llopiz at -80",126659
+"202404","0475","01130","005",58,4057.4818,6748.7244,4057.2995,6750.0457,"Peprilus triacanthus (butterfish)","Llopiz Request - GB","Freeze for Llopiz at -80",126661
+"202404","0500","01230","006",79,4108.0616,6849.5789,4107.1484,6850.0582,"Peprilus triacanthus (butterfish)","Llopiz Request - GB","Freeze for Llopiz at -80",137604
+"202404","0500","01230","006",79,4108.0616,6849.5789,4107.1484,6850.0582,"Peprilus triacanthus (butterfish)","Llopiz Request - GB","Freeze for Llopiz at -80",137646
+"202404","0500","01230","006",79,4108.0616,6849.5789,4107.1484,6850.0582,"Peprilus triacanthus (butterfish)","Llopiz Request - GB","Freeze for Llopiz at -80",137648
+"202404","0392","01070","001",126,4013.8004,7050.5962,4013.1887,7051.6111,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",106453
+"202404","0481","01190","005",48,4101.2307,6823.8073,4101.9439,6824.6699,"Peprilus triacanthus (butterfish)","Llopiz Request - GB","Freeze for Llopiz at -80",128955
+"202404","0444","01130","007",87,4053.5484,6708.4764,4054.0683,6709.6383,"Peprilus triacanthus (butterfish)","Llopiz Request - GB","Freeze for Llopiz at -80",117144
+"202404","0481","01190","005",48,4101.2307,6823.8073,4101.9439,6824.6699,"Peprilus triacanthus (butterfish)","Llopiz Request - GB","Freeze for Llopiz at -80",128965
+"202404","0481","01190","005",48,4101.2307,6823.8073,4101.9439,6824.6699,"Peprilus triacanthus (butterfish)","Llopiz Request - GB","Freeze for Llopiz at -80",128968
+"202404","0467","01160","012",67,4112.3484,6702.185,4113.0412,6703.177,"Peprilus triacanthus (butterfish)","Llopiz Request - GB","Freeze for Llopiz at -80",124700
+"202404","0473","01130","008",64,4055.8617,6743.5334,4055.9554,6744.8295,"Peprilus triacanthus (butterfish)","Llopiz Request - GB","Freeze for Llopiz at -80",126056
+"202404","0473","01130","008",64,4055.8617,6743.5334,4055.9554,6744.8295,"Peprilus triacanthus (butterfish)","Llopiz Request - GB","Freeze for Llopiz at -80",126063
+"202404","0477","01190","004",57,4057.7827,6752.7059,4057.907,6754.0548,"Peprilus triacanthus (butterfish)","Llopiz Request - GB","Freeze for Llopiz at -80",127209
+"202404","0477","01190","004",57,4057.7827,6752.7059,4057.907,6754.0548,"Peprilus triacanthus (butterfish)","Llopiz Request - GB","Freeze for Llopiz at -80",127255
+"202404","0477","01190","004",57,4057.7827,6752.7059,4057.907,6754.0548,"Peprilus triacanthus (butterfish)","Llopiz Request - GB","Freeze for Llopiz at -80",127256
+"202404","0494","01130","003",69,4052.1102,6852.0317,4052.6714,6853.065,"Peprilus triacanthus (butterfish)","Llopiz Request - GB","Freeze for Llopiz at -80",134848
+"202404","0494","01130","003",69,4052.1102,6852.0317,4052.6714,6853.065,"Peprilus triacanthus (butterfish)","Llopiz Request - GB","Freeze for Llopiz at -80",134856
+"202404","0444","01130","007",87,4053.5484,6708.4764,4054.0683,6709.6383,"Peprilus triacanthus (butterfish)","Llopiz Request - GB","Freeze for Llopiz at -80",117171
+"202404","0444","01130","007",87,4053.5484,6708.4764,4054.0683,6709.6383,"Peprilus triacanthus (butterfish)","Llopiz Request - GB","Freeze for Llopiz at -80",117175
+"202404","0454","01170","004",117,4057.5963,6633.3272,4056.9793,6634.2673,"Peprilus triacanthus (butterfish)","Llopiz Request - GB","Freeze for Llopiz at -80",120808
+"202404","0454","01170","004",117,4057.5963,6633.3272,4056.9793,6634.2673,"Peprilus triacanthus (butterfish)","Llopiz Request - GB","Freeze for Llopiz at -80",120815
+"202404","0467","01160","012",67,4112.3484,6702.185,4113.0412,6703.177,"Peprilus triacanthus (butterfish)","Llopiz Request - GB","Freeze for Llopiz at -80",124701
+"202404","0479","01190","002",50,4114.0694,6814.9714,4113.3698,6815.8429,"Peprilus triacanthus (butterfish)","Llopiz Request - GB","Freeze for Llopiz at -80",128079
+"202404","0479","01190","002",50,4114.0694,6814.9714,4113.3698,6815.8429,"Peprilus triacanthus (butterfish)","Llopiz Request - GB","Freeze for Llopiz at -80",128081
+"202404","0479","01190","002",50,4114.0694,6814.9714,4113.3698,6815.8429,"Peprilus triacanthus (butterfish)","Llopiz Request - GB","Freeze for Llopiz at -80",128082
+"202404","0425","01100","006",73,4031.0252,6853.2953,4031.5625,6852.1803,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",114877
+"202404","0485","01190","003",60,4052.1996,6839.1438,4053.0862,6838.5603,"Peprilus triacanthus (butterfish)","Llopiz Request - GB","Freeze for Llopiz at -80",130219
+"202404","0473","01130","008",64,4055.8617,6743.5334,4055.9554,6744.8295,"Peprilus triacanthus (butterfish)","Llopiz Request - GB","Freeze for Llopiz at -80",126064
+"202404","0494","01130","003",69,4052.1102,6852.0317,4052.6714,6853.065,"Peprilus triacanthus (butterfish)","Llopiz Request - GB","Freeze for Llopiz at -80",134852
+"202404","0485","01190","003",60,4052.1996,6839.1438,4053.0862,6838.5603,"Peprilus triacanthus (butterfish)","Llopiz Request - GB","Freeze for Llopiz at -80",130221
+"202404","0485","01190","003",60,4052.1996,6839.1438,4053.0862,6838.5603,"Peprilus triacanthus (butterfish)","Llopiz Request - GB","Freeze for Llopiz at -80",130222
+"202404","0425","01100","006",73,4031.0252,6853.2953,4031.5625,6852.1803,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",114903
+"202404","0425","01100","006",73,4031.0252,6853.2953,4031.5625,6852.1803,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",114904
+"202404","0425","01100","006",73,4031.0252,6853.2953,4031.5625,6852.1803,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",114905
+"202404","0425","01100","006",73,4031.0252,6853.2953,4031.5625,6852.1803,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",114924
+"202404","0471","01130","010",61,4107.5694,6718.7484,4106.5759,6718.6621,"Peprilus triacanthus (butterfish)","Llopiz Request - GB","Freeze for Llopiz at -80",125587
+"202404","0471","01130","010",61,4107.5694,6718.7484,4106.5759,6718.6621,"Peprilus triacanthus (butterfish)","Llopiz Request - GB","Freeze for Llopiz at -80",125604
+"202404","0471","01130","010",61,4107.5694,6718.7484,4106.5759,6718.6621,"Peprilus triacanthus (butterfish)","Llopiz Request - GB","Freeze for Llopiz at -80",125613
+"202404","0483","01190","001",52,4102.4637,6830.5336,4103.3981,6830.875,"Peprilus triacanthus (butterfish)","Llopiz Request - GB","Freeze for Llopiz at -80",129986
+"202404","0483","01190","001",52,4102.4637,6830.5336,4103.3981,6830.875,"Peprilus triacanthus (butterfish)","Llopiz Request - GB","Freeze for Llopiz at -80",129990
+"202404","0483","01190","001",52,4102.4637,6830.5336,4103.3981,6830.875,"Peprilus triacanthus (butterfish)","Llopiz Request - GB","Freeze for Llopiz at -80",129992
+"202404","0485","01190","003",60,4052.1996,6839.1438,4053.0862,6838.5603,"Peprilus triacanthus (butterfish)","Llopiz Request - GB","Freeze for Llopiz at -80",130897
+"202404","0485","01190","003",60,4052.1996,6839.1438,4053.0862,6838.5603,"Peprilus triacanthus (butterfish)","Llopiz Request - GB","Freeze for Llopiz at -80",130899
+"202404","0485","01190","003",60,4052.1996,6839.1438,4053.0862,6838.5603,"Peprilus triacanthus (butterfish)","Llopiz Request - GB","Freeze for Llopiz at -80",130901
+"202404","0487","01130","009",66,4040.6947,6843.2034,4040.9401,6841.9249,"Peprilus triacanthus (butterfish)","Llopiz Request - GB","Freeze for Llopiz at -80",132072
+"202404","0487","01130","009",66,4040.6947,6843.2034,4040.9401,6841.9249,"Peprilus triacanthus (butterfish)","Llopiz Request - GB","Freeze for Llopiz at -80",132085
+"202404","0487","01130","009",66,4040.6947,6843.2034,4040.9401,6841.9249,"Peprilus triacanthus (butterfish)","Llopiz Request - GB","Freeze for Llopiz at -80",132088
+"202404","0483","01190","001",52,4102.4637,6830.5336,4103.3981,6830.875,"Peprilus triacanthus (butterfish)","Llopiz Request - GB","Freeze for Llopiz at -80",129634
+"202404","0483","01190","001",52,4102.4637,6830.5336,4103.3981,6830.875,"Peprilus triacanthus (butterfish)","Llopiz Request - GB","Freeze for Llopiz at -80",129643
+"202404","0483","01190","001",52,4102.4637,6830.5336,4103.3981,6830.875,"Peprilus triacanthus (butterfish)","Llopiz Request - GB","Freeze for Llopiz at -80",129645
+"202404","0496","01130","006",72,4056.2049,6847.6038,4057.0858,6848.207,"Peprilus triacanthus (butterfish)","Llopiz Request - GB","Freeze for Llopiz at -80",135448
+"202404","0496","01130","006",72,4056.2049,6847.6038,4057.0858,6848.207,"Peprilus triacanthus (butterfish)","Llopiz Request - GB","Freeze for Llopiz at -80",135460
+"202404","0496","01130","006",72,4056.2049,6847.6038,4057.0858,6848.207,"Peprilus triacanthus (butterfish)","Llopiz Request - GB","Freeze for Llopiz at -80",135462
+"202404","0526","01250","006",57,4152.0195,6951.4281,4152.8871,6951.7502,"Peprilus triacanthus (butterfish)","Llopiz Request - GB","Freeze for Llopiz at -80",146260
+"202404","0526","01250","006",57,4152.0195,6951.4281,4152.8871,6951.7502,"Peprilus triacanthus (butterfish)","Llopiz Request - GB","Freeze for Llopiz at -80",146262
+"202404","0526","01250","006",57,4152.0195,6951.4281,4152.8871,6951.7502,"Peprilus triacanthus (butterfish)","Llopiz Request - GB","Freeze for Llopiz at -80",146263
+"202404","0544","01190","007",44,4122.9653,6728.269,4123.1675,6727.0257,"Peprilus triacanthus (butterfish)","Llopiz Request - GB","Freeze for Llopiz at -80",152061
+"202404","0551","01200","007",52,4150.2639,6755.1973,4149.6161,6756.2021,"Peprilus triacanthus (butterfish)","Llopiz Request - GB","Freeze for Llopiz at -80",154476
+"202404","0557","01200","005",45,4200.6137,6732.3627,4159.7169,6732.6784,"Peprilus triacanthus (butterfish)","Llopiz Request - GB","Freeze for Llopiz at -80",155521
+"202404","0544","01190","007",44,4122.9653,6728.269,4123.1675,6727.0257,"Peprilus triacanthus (butterfish)","Llopiz Request - GB","Freeze for Llopiz at -80",152457
+"202404","0544","01190","007",44,4122.9653,6728.269,4123.1675,6727.0257,"Peprilus triacanthus (butterfish)","Llopiz Request - GB","Freeze for Llopiz at -80",152461
+"202404","0544","01190","007",44,4122.9653,6728.269,4123.1675,6727.0257,"Peprilus triacanthus (butterfish)","Llopiz Request - GB","Freeze for Llopiz at -80",152462
+"202404","0549","01200","001",41,4151.5273,6749.1124,4150.9381,6750.1563,"Peprilus triacanthus (butterfish)","Llopiz Request - GB","Freeze for Llopiz at -80",153747
+"202404","0549","01200","001",41,4151.5273,6749.1124,4150.9381,6750.1563,"Peprilus triacanthus (butterfish)","Llopiz Request - GB","Freeze for Llopiz at -80",153750
+"202404","0497","01230","004",66,4102.1796,6846.4935,4101.4134,6845.732,"Peprilus triacanthus (butterfish)","Llopiz Request - GB","Freeze for Llopiz at -80",136508
+"202404","0497","01230","004",66,4102.1796,6846.4935,4101.4134,6845.732,"Peprilus triacanthus (butterfish)","Llopiz Request - GB","Freeze for Llopiz at -80",136516
+"202404","0497","01230","004",66,4102.1796,6846.4935,4101.4134,6845.732,"Peprilus triacanthus (butterfish)","Llopiz Request - GB","Freeze for Llopiz at -80",136519
+"202404","0511","01250","008",36,4123.2995,6929.2525,4123.3333,6929.4339,"Peprilus triacanthus (butterfish)","Llopiz Request - GB","Freeze for Llopiz at -80",140868
+"202404","0511","01250","008",36,4123.2995,6929.2525,4123.3333,6929.4339,"Peprilus triacanthus (butterfish)","Llopiz Request - GB","Freeze for Llopiz at -80",140869
+"202404","0625","01160","013",86,4130.4243,6634.1755,4129.8233,6633.1374,"Peprilus triacanthus (butterfish)","Llopiz Request - GB","Freeze for Llopiz at -80",174347
+"202404","0625","01160","013",86,4130.4243,6634.1755,4129.8233,6633.1374,"Peprilus triacanthus (butterfish)","Llopiz Request - GB","Freeze for Llopiz at -80",174353
+"202404","0625","01160","013",86,4130.4243,6634.1755,4129.8233,6633.1374,"Peprilus triacanthus (butterfish)","Llopiz Request - GB","Freeze for Llopiz at -80",174355
+"202404","0491","01100","008",72,4052.4453,6904.9101,4051.4067,6905.0999,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",133849
+"202404","0551","01200","007",52,4150.2639,6755.1973,4149.6161,6756.2021,"Peprilus triacanthus (butterfish)","Llopiz Request - GB","Freeze for Llopiz at -80",154090
+"202404","0544","01190","007",44,4122.9653,6728.269,4123.1675,6727.0257,"Peprilus triacanthus (butterfish)","Llopiz Request - GB","Freeze for Llopiz at -80",152052
+"202404","0536","01200","004",51,4130.604,6819.8779,4131.2304,6820.8862,"Peprilus triacanthus (butterfish)","Llopiz Request - GB","Freeze for Llopiz at -80",150522
+"202404","0536","01200","004",51,4130.604,6819.8779,4131.2304,6820.8862,"Peprilus triacanthus (butterfish)","Llopiz Request - GB","Freeze for Llopiz at -80",150529
+"202404","0617","01210","002",63,4206.8595,6701.2625,4205.9814,6700.5933,"Peprilus triacanthus (butterfish)","Llopiz Request - GB","Freeze for Llopiz at -80",171870
+"202404","0617","01210","002",63,4206.8595,6701.2625,4205.9814,6700.5933,"Peprilus triacanthus (butterfish)","Llopiz Request - GB","Freeze for Llopiz at -80",171872
+"202404","0617","01210","002",63,4206.8595,6701.2625,4205.9814,6700.5933,"Peprilus triacanthus (butterfish)","Llopiz Request - GB","Freeze for Llopiz at -80",171874
+"202404","0553","01220","001",193,4154.5161,6808.7552,4153.9065,6809.8196,"Peprilus triacanthus (butterfish)","Llopiz Request - GB","Freeze for Llopiz at -80",154858
+"202404","0553","01220","001",193,4154.5161,6808.7552,4153.9065,6809.8196,"Peprilus triacanthus (butterfish)","Llopiz Request - GB","Freeze for Llopiz at -80",154860
+"202404","0543","01190","008",45,4117.7406,6726.9477,4118.2053,6725.8272,"Peprilus triacanthus (butterfish)","Llopiz Request - GB","Freeze for Llopiz at -80",151939
+"202404","0544","01190","007",44,4122.9653,6728.269,4123.1675,6727.0257,"Peprilus triacanthus (butterfish)","Llopiz Request - GB","Freeze for Llopiz at -80",152062
+"202404","0557","01200","005",45,4200.6137,6732.3627,4159.7169,6732.6784,"Peprilus triacanthus (butterfish)","Llopiz Request - GB","Freeze for Llopiz at -80",155517
+"202404","0489","01100","003",69,4043.38,6859.0173,4042.381,6859.052,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",133025
+"202404","0553","01220","001",193,4154.5161,6808.7552,4153.9065,6809.8196,"Peprilus triacanthus (butterfish)","Llopiz Request - GB","Freeze for Llopiz at -80",154862
+"202404","0559","01210","004",159,4206.8357,6728.7269,4207.2156,6727.5322,"Peprilus triacanthus (butterfish)","Llopiz Request - GB","Freeze for Llopiz at -80",156670
+"202404","0559","01210","004",159,4206.8357,6728.7269,4207.2156,6727.5322,"Peprilus triacanthus (butterfish)","Llopiz Request - GB","Freeze for Llopiz at -80",156690
+"202404","0559","01210","004",159,4206.8357,6728.7269,4207.2156,6727.5322,"Peprilus triacanthus (butterfish)","Llopiz Request - GB","Freeze for Llopiz at -80",156695
+"202404","0491","01100","008",72,4052.4453,6904.9101,4051.4067,6905.0999,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",133839
+"202404","0491","01100","008",72,4052.4453,6904.9101,4051.4067,6905.0999,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",133841
+"202404","0489","01100","003",69,4043.38,6859.0173,4042.381,6859.052,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",133108
+"202404","0489","01100","003",69,4043.38,6859.0173,4042.381,6859.052,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",133113
+"202404","0489","01100","003",69,4043.38,6859.0173,4042.381,6859.052,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",133119
+"202404","0489","01100","003",69,4043.38,6859.0173,4042.381,6859.052,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",133126
+"202404","0551","01200","007",52,4150.2639,6755.1973,4149.6161,6756.2021,"Peprilus triacanthus (butterfish)","Llopiz Request - GB","Freeze for Llopiz at -80",154094
+"202404","0551","01200","007",52,4150.2639,6755.1973,4149.6161,6756.2021,"Peprilus triacanthus (butterfish)","Llopiz Request - GB","Freeze for Llopiz at -80",154095
+"202404","0547","01200","003",39,4151.836,6745.2056,4150.8143,6745.1597,"Peprilus triacanthus (butterfish)","Llopiz Request - GB","Freeze for Llopiz at -80",153442
+"202404","0547","01200","003",39,4151.836,6745.2056,4150.8143,6745.1597,"Peprilus triacanthus (butterfish)","Llopiz Request - GB","Freeze for Llopiz at -80",153449
+"202404","0547","01200","003",39,4151.836,6745.2056,4150.8143,6745.1597,"Peprilus triacanthus (butterfish)","Llopiz Request - GB","Freeze for Llopiz at -80",153451
+"202404","0549","01200","001",41,4151.5273,6749.1124,4150.9381,6750.1563,"Peprilus triacanthus (butterfish)","Llopiz Request - GB","Freeze for Llopiz at -80",153681
+"202404","0549","01200","001",41,4151.5273,6749.1124,4150.9381,6750.1563,"Peprilus triacanthus (butterfish)","Llopiz Request - GB","Freeze for Llopiz at -80",153685
+"202404","0557","01200","005",45,4200.6137,6732.3627,4159.7169,6732.6784,"Peprilus triacanthus (butterfish)","Llopiz Request - GB","Freeze for Llopiz at -80",156009
+"202404","0557","01200","005",45,4200.6137,6732.3627,4159.7169,6732.6784,"Peprilus triacanthus (butterfish)","Llopiz Request - GB","Freeze for Llopiz at -80",156011
+"202404","0543","01190","008",45,4117.7406,6726.9477,4118.2053,6725.8272,"Peprilus triacanthus (butterfish)","Llopiz Request - GB","Freeze for Llopiz at -80",151552
+"202404","0549","01200","001",41,4151.5273,6749.1124,4150.9381,6750.1563,"Peprilus triacanthus (butterfish)","Llopiz Request - GB","Freeze for Llopiz at -80",153749
+"202404","0551","01200","007",52,4150.2639,6755.1973,4149.6161,6756.2021,"Peprilus triacanthus (butterfish)","Llopiz Request - GB","Freeze for Llopiz at -80",154474
+"202404","0557","01200","005",45,4200.6137,6732.3627,4159.7169,6732.6784,"Peprilus triacanthus (butterfish)","Llopiz Request - GB","Freeze for Llopiz at -80",155520
+"202404","0491","01100","008",72,4052.4453,6904.9101,4051.4067,6905.0999,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",133842
+"202404","0491","01100","008",72,4052.4453,6904.9101,4051.4067,6905.0999,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",133844
+"202404","0536","01200","004",51,4130.604,6819.8779,4131.2304,6820.8862,"Peprilus triacanthus (butterfish)","Llopiz Request - GB","Freeze for Llopiz at -80",150505
+"202404","0543","01190","008",45,4117.7406,6726.9477,4118.2053,6725.8272,"Peprilus triacanthus (butterfish)","Llopiz Request - GB","Freeze for Llopiz at -80",151570
+"202404","0543","01190","008",45,4117.7406,6726.9477,4118.2053,6725.8272,"Peprilus triacanthus (butterfish)","Llopiz Request - GB","Freeze for Llopiz at -80",151572
+"202404","0623","01190","006",54,4146.5104,6719.5793,4147.3864,6720.1618,"Peprilus triacanthus (butterfish)","Llopiz Request - GB","Freeze for Llopiz at -80",174000
+"202404","0549","01200","001",41,4151.5273,6749.1124,4150.9381,6750.1563,"Peprilus triacanthus (butterfish)","Llopiz Request - GB","Freeze for Llopiz at -80",153686
+"202404","0547","01200","003",39,4151.836,6745.2056,4150.8143,6745.1597,"Peprilus triacanthus (butterfish)","Llopiz Request - GB","Freeze for Llopiz at -80",153434
+"202404","0547","01200","003",39,4151.836,6745.2056,4150.8143,6745.1597,"Peprilus triacanthus (butterfish)","Llopiz Request - GB","Freeze for Llopiz at -80",153443
+"202404","0547","01200","003",39,4151.836,6745.2056,4150.8143,6745.1597,"Peprilus triacanthus (butterfish)","Llopiz Request - GB","Freeze for Llopiz at -80",153444
+"202404","0536","01200","004",51,4130.604,6819.8779,4131.2304,6820.8862,"Peprilus triacanthus (butterfish)","Llopiz Request - GB","Freeze for Llopiz at -80",150084
+"202404","0536","01200","004",51,4130.604,6819.8779,4131.2304,6820.8862,"Peprilus triacanthus (butterfish)","Llopiz Request - GB","Freeze for Llopiz at -80",150102
+"202404","0536","01200","004",51,4130.604,6819.8779,4131.2304,6820.8862,"Peprilus triacanthus (butterfish)","Llopiz Request - GB","Freeze for Llopiz at -80",150105
+"202404","0623","01190","006",54,4146.5104,6719.5793,4147.3864,6720.1618,"Peprilus triacanthus (butterfish)","Llopiz Request - GB","Freeze for Llopiz at -80",174004
+"202404","0623","01190","006",54,4146.5104,6719.5793,4147.3864,6720.1618,"Peprilus triacanthus (butterfish)","Llopiz Request - GB","Freeze for Llopiz at -80",174008
+"202404","0404","01110","003",116,4009.8927,7019.1179,4009.7061,7017.8166,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",109198
+"202404","0404","01110","003",116,4009.8927,7019.1179,4009.7061,7017.8166,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",109200
+"202404","0404","01110","003",116,4009.8927,7019.1179,4009.7061,7017.8166,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",109203
+"202404","0404","01110","003",116,4009.8927,7019.1179,4009.7061,7017.8166,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",109204
+"202404","0325","01090","003",41,4051.1867,6944.0794,4050.2769,6943.6013,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",82752
+"202404","0351","01020","006",66,3959.8814,7230.3145,4000.3471,7231.412,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",94029
+"202404","0374","01020","003",76,3940.679,7234.3526,3941.5444,7233.7434,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",101192
+"202404","0374","01020","003",76,3940.679,7234.3526,3941.5444,7233.7434,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",101197
+"202404","0396","01070","002",140,4004.0856,7045.2397,4003.7827,7046.5023,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",107411
+"202404","0396","01070","002",140,4004.0856,7045.2397,4003.7827,7046.5023,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",107423
+"202404","0319","01090","005",34,4114.0096,7029.9127,4114.5499,7028.7841,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",81348
+"202404","0319","01090","005",34,4114.0096,7029.9127,4114.5499,7028.7841,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",81365
+"202404","0333","01060","006",72,4035.0933,7101.0631,4035.2042,7059.7651,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",86439
+"202404","0333","01060","006",72,4035.0933,7101.0631,4035.2042,7059.7651,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",86480
+"202404","0378","01030","002",117,3939.6652,7217.6792,3940.6395,7217.3396,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",101934
+"202404","0378","01030","002",117,3939.6652,7217.6792,3940.6395,7217.3396,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",101942
+"202404","0412","01120","003",189,4001.5733,6908.9238,4002.0461,6910.0565,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",111034
+"202404","0412","01120","003",189,4001.5733,6908.9238,4002.0461,6910.0565,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",111036
+"202404","0412","01120","003",189,4001.5733,6908.9238,4002.0461,6910.0565,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",111039
+"202404","0333","01060","006",72,4035.0933,7101.0631,4035.2042,7059.7651,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",86462
+"202404","0349","01020","004",81,3958.7025,7204.153,3959.3142,7205.3011,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",93421
+"202404","0357","01020","008",60,3950.7574,7242.2237,3951.6658,7241.6936,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",95536
+"202404","0378","01030","002",117,3939.6652,7217.6792,3940.6395,7217.3396,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",101918
+"202404","0378","01030","002",117,3939.6652,7217.6792,3940.6395,7217.3396,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",101927
+"202404","0378","01030","002",117,3939.6652,7217.6792,3940.6395,7217.3396,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",101946
+"202404","0414","01110","002",129,4005.1367,6910.7397,4006.1184,6910.8128,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",111262
+"202404","0333","01060","006",72,4035.0933,7101.0631,4035.2042,7059.7651,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",86470
+"202404","0351","01020","006",66,3959.8814,7230.3145,4000.3471,7231.412,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",94021
+"202404","0351","01020","006",66,3959.8814,7230.3145,4000.3471,7231.412,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",94023
+"202404","0355","01020","007",57,4008.2486,7237.1175,4009.0107,7237.9076,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",95269
+"202404","0355","01020","007",57,4008.2486,7237.1175,4009.0107,7237.9076,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",95271
+"202404","0327","01090","002",43,4043.1791,6956.2057,4043.1962,6954.9057,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",83350
+"202404","0327","01090","002",43,4043.1791,6956.2057,4043.1962,6954.9057,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",83353
+"202404","0325","01090","003",41,4051.1867,6944.0794,4050.2769,6943.6013,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",82750
+"202404","0361","01010","002",46,3934.305,7305.6849,3935.0946,7304.9022,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",97766
+"202404","0361","01010","002",46,3934.305,7305.6849,3935.0946,7304.9022,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",97775
+"202404","0343","01060","008",71,4029.4265,7126.4864,4030.3762,7126.3704,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",92634
+"202404","0343","01060","008",71,4029.4265,7126.4864,4030.3762,7126.3704,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",92679
+"202404","0329","01090","001",49,4045.3778,7022.4541,4045.4783,7021.1267,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",84589
+"202404","0347","01060","004",87,4012.8025,7133.2341,4013.369,7132.1628,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",93190
+"202404","0351","01020","006",66,3959.8814,7230.3145,4000.3471,7231.412,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",94025
+"202404","0351","01020","006",66,3959.8814,7230.3145,4000.3471,7231.412,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",94027
+"202404","0349","01020","004",81,3958.7025,7204.153,3959.3142,7205.3011,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",93422
+"202404","0343","01060","008",71,4029.4265,7126.4864,4030.3762,7126.3704,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",92602
+"202404","0355","01020","007",57,4008.2486,7237.1175,4009.0107,7237.9076,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",95274
+"202404","0345","01060","002",80,4021.0762,7124.4463,4020.1848,7123.8504,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",92841
+"202404","0345","01060","002",80,4021.0762,7124.4463,4020.1848,7123.8504,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",92843
+"202404","0374","01020","003",76,3940.679,7234.3526,3941.5444,7233.7434,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",101196
+"202404","0374","01020","003",76,3940.679,7234.3526,3941.5444,7233.7434,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",101195
+"202404","0353","01020","005",61,4012.7226,7231.0058,4012.5426,7232.2579,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",94577
+"202404","0353","01020","005",61,4012.7226,7231.0058,4012.5426,7232.2579,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",94583
+"202404","0353","01020","005",61,4012.7226,7231.0058,4012.5426,7232.2579,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",94584
+"202404","0353","01020","005",61,4012.7226,7231.0058,4012.5426,7232.2579,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",94587
+"202404","0319","01090","005",34,4114.0096,7029.9127,4114.5499,7028.7841,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",81369
+"202404","0412","01120","003",189,4001.5733,6908.9238,4002.0461,6910.0565,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",111037
+"202404","0345","01060","002",80,4021.0762,7124.4463,4020.1848,7123.8504,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",92844
+"202404","0329","01090","001",49,4045.3778,7022.4541,4045.4783,7021.1267,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",84591
+"202404","0359","01020","001",69,3939.3738,7251.2498,3940.2129,7250.5968,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",97063
+"202404","0359","01020","001",69,3939.3738,7251.2498,3940.2129,7250.5968,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",97135
+"202404","0361","01010","002",46,3934.305,7305.6849,3935.0946,7304.9022,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",97751
+"202404","0406","01100","002",103,4011.006,7002.879,4011.2973,7001.5784,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",109417
+"202404","0406","01100","002",103,4011.006,7002.879,4011.2973,7001.5784,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",109455
+"202404","0406","01100","002",103,4011.006,7002.879,4011.2973,7001.5784,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",109456
+"202404","0345","01060","002",80,4021.0762,7124.4463,4020.1848,7123.8504,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",92846
+"202404","0357","01020","008",60,3950.7574,7242.2237,3951.6658,7241.6936,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",95546
+"202404","0325","01090","003",41,4051.1867,6944.0794,4050.2769,6943.6013,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",82749
+"202404","0361","01010","002",46,3934.305,7305.6849,3935.0946,7304.9022,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",97759
+"202404","0361","01010","002",46,3934.305,7305.6849,3935.0946,7304.9022,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",97762
+"202404","0347","01060","004",87,4012.8025,7133.2341,4013.369,7132.1628,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",93192
+"202404","0347","01060","004",87,4012.8025,7133.2341,4013.369,7132.1628,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",93195
+"202404","0374","01020","003",76,3940.679,7234.3526,3941.5444,7233.7434,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",101202
+"202404","0347","01060","004",87,4012.8025,7133.2341,4013.369,7132.1628,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",93194
+"202404","0347","01060","004",87,4012.8025,7133.2341,4013.369,7132.1628,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",93197
+"202404","0339","01050","002",52,4056.9702,7123.2074,4056.808,7124.4676,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",89717
+"202404","0339","01050","002",52,4056.9702,7123.2074,4056.808,7124.4676,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",89718
+"202404","0339","01050","002",52,4056.9702,7123.2074,4056.808,7124.4676,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",89721
+"202404","0339","01050","002",52,4056.9702,7123.2074,4056.808,7124.4676,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",89725
+"202404","0319","01090","005",34,4114.0096,7029.9127,4114.5499,7028.7841,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",81355
+"202404","0327","01090","002",43,4043.1791,6956.2057,4043.1962,6954.9057,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",83345
+"202404","0319","01090","005",34,4114.0096,7029.9127,4114.5499,7028.7841,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",81361
+"202404","0341","01060","005",59,4055.6259,7126.4724,4054.6776,7126.7841,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",91183
+"202404","0341","01060","005",59,4055.6259,7126.4724,4054.6776,7126.7841,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",91187
+"202404","0349","01020","004",81,3958.7025,7204.153,3959.3142,7205.3011,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",93418
+"202404","0359","01020","001",69,3939.3738,7251.2498,3940.2129,7250.5968,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",97013
+"202404","0359","01020","001",69,3939.3738,7251.2498,3940.2129,7250.5968,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",97028
+"202404","0359","01020","001",69,3939.3738,7251.2498,3940.2129,7250.5968,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",97031
+"202404","0406","01100","002",103,4011.006,7002.879,4011.2973,7001.5784,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",109448
+"202404","0374","01020","003",76,3940.679,7234.3526,3941.5444,7233.7434,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",101205
+"202404","0339","01050","002",52,4056.9702,7123.2074,4056.808,7124.4676,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",89730
+"202404","0351","01020","006",66,3959.8814,7230.3145,4000.3471,7231.412,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",94030
+"202404","0341","01060","005",59,4055.6259,7126.4724,4054.6776,7126.7841,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",91194
+"202404","0341","01060","005",59,4055.6259,7126.4724,4054.6776,7126.7841,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",91195
+"202404","0341","01060","005",59,4055.6259,7126.4724,4054.6776,7126.7841,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",91196
+"202404","0414","01110","002",129,4005.1367,6910.7397,4006.1184,6910.8128,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",111240
+"202404","0345","01060","002",80,4021.0762,7124.4463,4020.1848,7123.8504,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",92847
+"202404","0337","01060","001",61,4047.091,7118.5148,4048.0719,7118.7386,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",88549
+"202404","0329","01090","001",49,4045.3778,7022.4541,4045.4783,7021.1267,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",84592
+"202404","0329","01090","001",49,4045.3778,7022.4541,4045.4783,7021.1267,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",84593
+"202404","0329","01090","001",49,4045.3778,7022.4541,4045.4783,7021.1267,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",84594
+"202404","0343","01060","008",71,4029.4265,7126.4864,4030.3762,7126.3704,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",92675
+"202404","0343","01060","008",71,4029.4265,7126.4864,4030.3762,7126.3704,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",92684
+"202404","0355","01020","007",57,4008.2486,7237.1175,4009.0107,7237.9076,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",95205
+"202404","0355","01020","007",57,4008.2486,7237.1175,4009.0107,7237.9076,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",95246
+"202404","0353","01020","005",61,4012.7226,7231.0058,4012.5426,7232.2579,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",94586
+"202404","0420","01100","004",60,4031.9388,6927.6018,4031.412,6928.7217,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",112668
+"202404","0420","01100","004",60,4031.9388,6927.6018,4031.412,6928.7217,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",112680
+"202404","0420","01100","004",60,4031.9388,6927.6018,4031.412,6928.7217,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",112682
+"202404","0420","01100","004",60,4031.9388,6927.6018,4031.412,6928.7217,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",112684
+"202404","0420","01100","004",60,4031.9388,6927.6018,4031.412,6928.7217,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",112688
+"202404","0349","01020","004",81,3958.7025,7204.153,3959.3142,7205.3011,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",93428
+"202404","0349","01020","004",81,3958.7025,7204.153,3959.3142,7205.3011,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",93431
+"202404","0357","01020","008",60,3950.7574,7242.2237,3951.6658,7241.6936,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",95507
+"202404","0357","01020","008",60,3950.7574,7242.2237,3951.6658,7241.6936,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",95531
+"202404","0325","01090","003",41,4051.1867,6944.0794,4050.2769,6943.6013,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",82743
+"202404","0325","01090","003",41,4051.1867,6944.0794,4050.2769,6943.6013,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",82751
+"202404","0406","01100","002",103,4011.006,7002.879,4011.2973,7001.5784,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",109454
+"202404","0327","01090","002",43,4043.1791,6956.2057,4043.1962,6954.9057,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",83352
+"202404","0335","01060","007",60,4044.4895,7104.8554,4044.9108,7103.603,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",87573
+"202404","0335","01060","007",60,4044.4895,7104.8554,4044.9108,7103.603,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",87601
+"202404","0335","01060","007",60,4044.4895,7104.8554,4044.9108,7103.603,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",87607
+"202404","0335","01060","007",60,4044.4895,7104.8554,4044.9108,7103.603,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",87610
+"202404","0335","01060","007",60,4044.4895,7104.8554,4044.9108,7103.603,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",87613
+"202404","0414","01110","002",129,4005.1367,6910.7397,4006.1184,6910.8128,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",111222
+"202404","0414","01110","002",129,4005.1367,6910.7397,4006.1184,6910.8128,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",111232
+"202404","0357","01020","008",60,3950.7574,7242.2237,3951.6658,7241.6936,"Peprilus triacanthus (butterfish)","Llopiz Request - SNE","Freeze for Llopiz at -80",95542
+"202404","0547","01200","003",39,4151.836,6745.2056,4150.8143,6745.1597,"Scomber scombrus (Atlantic mackerel)","Llopiz Request - GB","Freeze for Llopiz at -80",152910
+"202404","0549","01200","001",41,4151.5273,6749.1124,4150.9381,6750.1563,"Scomber scombrus (Atlantic mackerel)","Llopiz Request - GB","Freeze for Llopiz at -80",153720
+"202404","0549","01200","001",41,4151.5273,6749.1124,4150.9381,6750.1563,"Scomber scombrus (Atlantic mackerel)","Llopiz Request - GB","Freeze for Llopiz at -80",153759
+"202404","0621","01190","009",59,4153.3596,6703.045,4152.5526,6703.8824,"Scomber scombrus (Atlantic mackerel)","Llopiz Request - GB","Freeze for Llopiz at -80",173083
+"202404","0621","01190","009",59,4153.3596,6703.045,4152.5526,6703.8824,"Scomber scombrus (Atlantic mackerel)","Llopiz Request - GB","Freeze for Llopiz at -80",173090
+"202404","0343","01060","008",71,4029.4265,7126.4864,4030.3762,7126.3704,"Scomber scombrus (Atlantic mackerel)","Llopiz Request - SNE","Freeze for Llopiz at -80",92285
+"202404","0343","01060","008",71,4029.4265,7126.4864,4030.3762,7126.3704,"Scomber scombrus (Atlantic mackerel)","Llopiz Request - SNE","Freeze for Llopiz at -80",92290
+"202404","0347","01060","004",87,4012.8025,7133.2341,4013.369,7132.1628,"Scomber scombrus (Atlantic mackerel)","Llopiz Request - SNE","Freeze for Llopiz at -80",93162
+"202404","0347","01060","004",87,4012.8025,7133.2341,4013.369,7132.1628,"Scomber scombrus (Atlantic mackerel)","Llopiz Request - SNE","Freeze for Llopiz at -80",93164
+"202404","0347","01060","004",87,4012.8025,7133.2341,4013.369,7132.1628,"Scomber scombrus (Atlantic mackerel)","Llopiz Request - SNE","Freeze for Llopiz at -80",93166
+"202404","0420","01100","004",60,4031.9388,6927.6018,4031.412,6928.7217,"Scomber scombrus (Atlantic mackerel)","Llopiz Request - SNE","Freeze for Llopiz at -80",112251
+"202404","0420","01100","004",60,4031.9388,6927.6018,4031.412,6928.7217,"Scomber scombrus (Atlantic mackerel)","Llopiz Request - SNE","Freeze for Llopiz at -80",112255
+"202404","0353","01020","005",61,4012.7226,7231.0058,4012.5426,7232.2579,"Scomber scombrus (Atlantic mackerel)","Llopiz Request - SNE","Freeze for Llopiz at -80",94580
+"202404","0347","01060","004",87,4012.8025,7133.2341,4013.369,7132.1628,"Scomber scombrus (Atlantic mackerel)","Llopiz Request - SNE","Freeze for Llopiz at -80",93165
+"202404","0347","01060","004",87,4012.8025,7133.2341,4013.369,7132.1628,"Scomber scombrus (Atlantic mackerel)","Llopiz Request - SNE","Freeze for Llopiz at -80",93161
+"202404","0353","01020","005",61,4012.7226,7231.0058,4012.5426,7232.2579,"Scomber scombrus (Atlantic mackerel)","Llopiz Request - SNE","Freeze for Llopiz at -80",94581
+"202404","0341","01060","005",59,4055.6259,7126.4724,4054.6776,7126.7841,"Scomber scombrus (Atlantic mackerel)","Llopiz Request - SNE","Freeze for Llopiz at -80",90875
+"202404","0341","01060","005",59,4055.6259,7126.4724,4054.6776,7126.7841,"Scomber scombrus (Atlantic mackerel)","Llopiz Request - SNE","Freeze for Llopiz at -80",90881
+"202404","0420","01100","004",60,4031.9388,6927.6018,4031.412,6928.7217,"Scomber scombrus (Atlantic mackerel)","Llopiz Request - SNE","Freeze for Llopiz at -80",112248
+"202404","0341","01060","005",59,4055.6259,7126.4724,4054.6776,7126.7841,"Scomber scombrus (Atlantic mackerel)","Llopiz Request - SNE","Freeze for Llopiz at -80",90801
+"202404","0420","01100","004",60,4031.9388,6927.6018,4031.412,6928.7217,"Scomber scombrus (Atlantic mackerel)","Llopiz Request - SNE","Freeze for Llopiz at -80",112240
+"202404","0420","01100","004",60,4031.9388,6927.6018,4031.412,6928.7217,"Scomber scombrus (Atlantic mackerel)","Llopiz Request - SNE","Freeze for Llopiz at -80",112244
+"202404","0341","01060","005",59,4055.6259,7126.4724,4054.6776,7126.7841,"Scomber scombrus (Atlantic mackerel)","Llopiz Request - SNE","Freeze for Llopiz at -80",90837
+"202404","0341","01060","005",59,4055.6259,7126.4724,4054.6776,7126.7841,"Scomber scombrus (Atlantic mackerel)","Llopiz Request - SNE","Freeze for Llopiz at -80",90847
+"202404","0349","01020","004",81,3958.7025,7204.153,3959.3142,7205.3011,"Scomber scombrus (Atlantic mackerel)","Llopiz Request - SNE","Freeze for Llopiz at -80",93573
+"202404","0305","01050","003",35,4118.4057,7124.3654,4118.8755,7123.2038,"Scomber scombrus (Atlantic mackerel)","Llopiz Request - SNE","Freeze for Llopiz at -80",74367
+"202404","0317","01090","004",35,4109.9622,7039.3756,4110.3633,7038.1827,"Scomber scombrus (Atlantic mackerel)","Llopiz Request - SNE","Freeze for Llopiz at -80",79856
+"202404","0317","01090","004",35,4109.9622,7039.3756,4110.3633,7038.1827,"Scomber scombrus (Atlantic mackerel)","Llopiz Request - SNE","Freeze for Llopiz at -80",79860
+"202404","0349","01020","004",81,3958.7025,7204.153,3959.3142,7205.3011,"Scomber scombrus (Atlantic mackerel)","Llopiz Request - SNE","Freeze for Llopiz at -80",93607
+"202404","0349","01020","004",81,3958.7025,7204.153,3959.3142,7205.3011,"Scomber scombrus (Atlantic mackerel)","Llopiz Request - SNE","Freeze for Llopiz at -80",93611
+"202404","0349","01020","004",81,3958.7025,7204.153,3959.3142,7205.3011,"Scomber scombrus (Atlantic mackerel)","Llopiz Request - SNE","Freeze for Llopiz at -80",93567
+"202404","0333","01060","006",72,4035.0933,7101.0631,4035.2042,7059.7651,"Scomber scombrus (Atlantic mackerel)","Llopiz Request - SNE","Freeze for Llopiz at -80",86533
+"202404","0327","01090","002",43,4043.1791,6956.2057,4043.1962,6954.9057,"Scomber scombrus (Atlantic mackerel)","Llopiz Request - SNE","Freeze for Llopiz at -80",83897
+"202404","0615","01200","006",48,4203.4317,6716.5157,4204.3738,6717.082,"Scomber scombrus (Atlantic mackerel)","Llopiz Request - GB","Freeze for Llopiz at -80",170572
+"202404","0615","01200","006",48,4203.4317,6716.5157,4204.3738,6717.082,"Scomber scombrus (Atlantic mackerel)","Llopiz Request - GB","Freeze for Llopiz at -80",170573
+"202404","0629","01160","003",82,4135.5612,6629.9688,4135.1464,6631.1666,"Scomber scombrus (Atlantic mackerel)","Llopiz Request - GB","Freeze for Llopiz at -80",175119
+"202404","0629","01160","003",82,4135.5612,6629.9688,4135.1464,6631.1666,"Scomber scombrus (Atlantic mackerel)","Llopiz Request - GB","Freeze for Llopiz at -80",175132
+"202404","0631","01160","007",96,4124.7123,6622.8232,4125.5664,6623.4216,"Scomber scombrus (Atlantic mackerel)","Llopiz Request - GB","Freeze for Llopiz at -80",175904
+"202404","0631","01160","007",96,4124.7123,6622.8232,4125.5664,6623.4216,"Scomber scombrus (Atlantic mackerel)","Llopiz Request - GB","Freeze for Llopiz at -80",175906
+"202404","0631","01160","007",96,4124.7123,6622.8232,4125.5664,6623.4216,"Scomber scombrus (Atlantic mackerel)","Llopiz Request - GB","Freeze for Llopiz at -80",175908
+"202404","0617","01210","002",63,4206.8595,6701.2625,4205.9814,6700.5933,"Scomber scombrus (Atlantic mackerel)","Llopiz Request - GB","Freeze for Llopiz at -80",171558
+"202404","0617","01210","002",63,4206.8595,6701.2625,4205.9814,6700.5933,"Scomber scombrus (Atlantic mackerel)","Llopiz Request - GB","Freeze for Llopiz at -80",171585
+"202404","0617","01210","002",63,4206.8595,6701.2625,4205.9814,6700.5933,"Scomber scombrus (Atlantic mackerel)","Llopiz Request - GB","Freeze for Llopiz at -80",171586
+"202404","0625","01160","013",86,4130.4243,6634.1755,4129.8233,6633.1374,"Scomber scombrus (Atlantic mackerel)","Llopiz Request - GB","Freeze for Llopiz at -80",174408
+"202404","0625","01160","013",86,4130.4243,6634.1755,4129.8233,6633.1374,"Scomber scombrus (Atlantic mackerel)","Llopiz Request - GB","Freeze for Llopiz at -80",174411
+"202404","0625","01160","013",86,4130.4243,6634.1755,4129.8233,6633.1374,"Scomber scombrus (Atlantic mackerel)","Llopiz Request - GB","Freeze for Llopiz at -80",174419
+"202404","0621","01190","009",59,4153.3596,6703.045,4152.5526,6703.8824,"Scomber scombrus (Atlantic mackerel)","Llopiz Request - GB","Freeze for Llopiz at -80",173127
+"202404","0627","01160","002",79,4136.8394,6636.8512,4137.0311,6635.5162,"Scomber scombrus (Atlantic mackerel)","Llopiz Request - GB","Freeze for Llopiz at -80",175063
+"202404","0615","01200","006",48,4203.4317,6716.5157,4204.3738,6717.082,"Scomber scombrus (Atlantic mackerel)","Llopiz Request - GB","Freeze for Llopiz at -80",170570
+"202404","0629","01160","003",82,4135.5612,6629.9688,4135.1464,6631.1666,"Scomber scombrus (Atlantic mackerel)","Llopiz Request - GB","Freeze for Llopiz at -80",175130
+"202404","0485","01190","003",60,4052.1996,6839.1438,4053.0862,6838.5603,"Scomber scombrus (Atlantic mackerel)","Llopiz Request - GB","Freeze for Llopiz at -80",130441
+"202404","0507","01250","001",54,4107.3109,6913.7077,4106.3393,6913.5231,"Scomber scombrus (Atlantic mackerel)","Llopiz Request - GB","Freeze for Llopiz at -80",139638
+"202404","0507","01250","001",54,4107.3109,6913.7077,4106.3393,6913.5231,"Scomber scombrus (Atlantic mackerel)","Llopiz Request - GB","Freeze for Llopiz at -80",139639
+"202404","0507","01250","001",54,4107.3109,6913.7077,4106.3393,6913.5231,"Scomber scombrus (Atlantic mackerel)","Llopiz Request - GB","Freeze for Llopiz at -80",139640
+"202404","0477","01190","004",57,4057.7827,6752.7059,4057.907,6754.0548,"Scomber scombrus (Atlantic mackerel)","Llopiz Request - GB","Freeze for Llopiz at -80",127005
+"202404","0477","01190","004",57,4057.7827,6752.7059,4057.907,6754.0548,"Scomber scombrus (Atlantic mackerel)","Llopiz Request - GB","Freeze for Llopiz at -80",127008
+"202404","0473","01130","008",64,4055.8617,6743.5334,4055.9554,6744.8295,"Scomber scombrus (Atlantic mackerel)","Llopiz Request - GB","Freeze for Llopiz at -80",125902
+"202404","0473","01130","008",64,4055.8617,6743.5334,4055.9554,6744.8295,"Scomber scombrus (Atlantic mackerel)","Llopiz Request - GB","Freeze for Llopiz at -80",125904
+"202404","0473","01130","008",64,4055.8617,6743.5334,4055.9554,6744.8295,"Scomber scombrus (Atlantic mackerel)","Llopiz Request - GB","Freeze for Llopiz at -80",125912
+"202404","0500","01230","006",79,4108.0616,6849.5789,4107.1484,6850.0582,"Scomber scombrus (Atlantic mackerel)","Llopiz Request - GB","Freeze for Llopiz at -80",137753
+"202404","0500","01230","006",79,4108.0616,6849.5789,4107.1484,6850.0582,"Scomber scombrus (Atlantic mackerel)","Llopiz Request - GB","Freeze for Llopiz at -80",137754
+"202404","0491","01100","008",72,4052.4453,6904.9101,4051.4067,6905.0999,"Scomber scombrus (Atlantic mackerel)","Llopiz Request - SNE","Freeze for Llopiz at -80",133851
+"202404","0491","01100","008",72,4052.4453,6904.9101,4051.4067,6905.0999,"Scomber scombrus (Atlantic mackerel)","Llopiz Request - SNE","Freeze for Llopiz at -80",133856
+"202404","0477","01190","004",57,4057.7827,6752.7059,4057.907,6754.0548,"Scomber scombrus (Atlantic mackerel)","Llopiz Request - GB","Freeze for Llopiz at -80",127014
+"202404","0500","01230","006",79,4108.0616,6849.5789,4107.1484,6850.0582,"Scomber scombrus (Atlantic mackerel)","Llopiz Request - GB","Freeze for Llopiz at -80",137751
+"202404","0425","01100","006",73,4031.0252,6853.2953,4031.5625,6852.1803,"Scomber scombrus (Atlantic mackerel)","Llopiz Request - SNE","Freeze for Llopiz at -80",114583
+"202404","0487","01130","009",66,4040.6947,6843.2034,4040.9401,6841.9249,"Scomber scombrus (Atlantic mackerel)","Llopiz Request - GB","Freeze for Llopiz at -80",132432
+"202404","0516","01250","002",49,4136.5216,6940.582,4135.8998,6939.5692,"Scomber scombrus (Atlantic mackerel)","Llopiz Request - GB","Freeze for Llopiz at -80",142726
+"202404","0526","01250","006",57,4152.0195,6951.4281,4152.8871,6951.7502,"Scomber scombrus (Atlantic mackerel)","Llopiz Request - GB","Freeze for Llopiz at -80",145939
+"202404","0485","01190","003",60,4052.1996,6839.1438,4053.0862,6838.5603,"Scomber scombrus (Atlantic mackerel)","Llopiz Request - GB","Freeze for Llopiz at -80",130863
+"202404","0526","01250","006",57,4152.0195,6951.4281,4152.8871,6951.7502,"Scomber scombrus (Atlantic mackerel)","Llopiz Request - GB","Freeze for Llopiz at -80",145936
+"202404","0526","01250","006",57,4152.0195,6951.4281,4152.8871,6951.7502,"Scomber scombrus (Atlantic mackerel)","Llopiz Request - GB","Freeze for Llopiz at -80",145937
+"202404","0623","01190","006",54,4146.5104,6719.5793,4147.3864,6720.1618,"Scomber scombrus (Atlantic mackerel)","Llopiz Request - GB","Freeze for Llopiz at -80",174035
+"202404","0623","01190","006",54,4146.5104,6719.5793,4147.3864,6720.1618,"Scomber scombrus (Atlantic mackerel)","Llopiz Request - GB","Freeze for Llopiz at -80",174043
+"202404","0623","01190","006",54,4146.5104,6719.5793,4147.3864,6720.1618,"Scomber scombrus (Atlantic mackerel)","Llopiz Request - GB","Freeze for Llopiz at -80",174051
+"202404","0526","01250","006",57,4152.0195,6951.4281,4152.8871,6951.7502,"Scomber scombrus (Atlantic mackerel)","Llopiz Request - GB","Freeze for Llopiz at -80",145938
+"202404","0547","01200","003",39,4151.836,6745.2056,4150.8143,6745.1597,"Scomber scombrus (Atlantic mackerel)","Llopiz Request - GB","Freeze for Llopiz at -80",152913
+"202404","0547","01200","003",39,4151.836,6745.2056,4150.8143,6745.1597,"Scomber scombrus (Atlantic mackerel)","Llopiz Request - GB","Freeze for Llopiz at -80",152915
+"202404","0549","01200","001",41,4151.5273,6749.1124,4150.9381,6750.1563,"Scomber scombrus (Atlantic mackerel)","Llopiz Request - GB","Freeze for Llopiz at -80",153794
+"202404","0615","01200","006",48,4203.4317,6716.5157,4204.3738,6717.082,"Scomber scombrus (Atlantic mackerel)","Llopiz Request - GB","Freeze for Llopiz at -80",171101
+"202404","0615","01200","006",48,4203.4317,6716.5157,4204.3738,6717.082,"Scomber scombrus (Atlantic mackerel)","Llopiz Request - GB","Freeze for Llopiz at -80",171105
+"202404","0615","01200","006",48,4203.4317,6716.5157,4204.3738,6717.082,"Scomber scombrus (Atlantic mackerel)","Llopiz Request - GB","Freeze for Llopiz at -80",171107
+"202404","0497","01230","004",66,4102.1796,6846.4935,4101.4134,6845.732,"Scomber scombrus (Atlantic mackerel)","Llopiz Request - GB","Freeze for Llopiz at -80",136247
+"202404","0497","01230","004",66,4102.1796,6846.4935,4101.4134,6845.732,"Scomber scombrus (Atlantic mackerel)","Llopiz Request - GB","Freeze for Llopiz at -80",136248
+"202404","0551","01200","007",52,4150.2639,6755.1973,4149.6161,6756.2021,"Scomber scombrus (Atlantic mackerel)","Llopiz Request - GB","Freeze for Llopiz at -80",154411
+"202404","0551","01200","007",52,4150.2639,6755.1973,4149.6161,6756.2021,"Scomber scombrus (Atlantic mackerel)","Llopiz Request - GB","Freeze for Llopiz at -80",154410
+"202404","0497","01230","004",66,4102.1796,6846.4935,4101.4134,6845.732,"Scomber scombrus (Atlantic mackerel)","Llopiz Request - GB","Freeze for Llopiz at -80",136250
+"202404","0551","01200","007",52,4150.2639,6755.1973,4149.6161,6756.2021,"Scomber scombrus (Atlantic mackerel)","Llopiz Request - GB","Freeze for Llopiz at -80",154396
