@@ -11,6 +11,7 @@ library(tidyverse)
 #            Data -----
 #### ------------------------------------------ #####
 fish <- read.csv("raw/LTER_ForageFish_Inventory.csv")
+# this is the fish inventory created by Lyndsey (googledrive)
 
 head(fish)
 
@@ -38,7 +39,6 @@ fishbongo <- fish1 %>%
 
 #write.csv(fishbongo, "output/fishbongo20232024.csv")
 
-
 fish2 <- fish %>%
   dplyr::filter(Cruise %in% c(202302, 202304, 202402, 202404) &
                   Species %in% c("P_tri", "S_sco", "C_har") &
@@ -55,3 +55,8 @@ fish3 <- fish %>%
 fish3 %>%
   group_by(Cruise, Species) %>%
   summarise(total_fish = sum(Count), .groups = "drop")
+
+
+fishall <- fish %>%
+  dplyr::filter(Cruise %in% c(202302, 202304, 202402, 202404) &
+                  Bongo == "Y")
