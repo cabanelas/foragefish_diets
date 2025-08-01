@@ -10,7 +10,7 @@ library(tidyverse)
 #### ------------------------------------------ #####
 #            Data -----
 #### ------------------------------------------ #####
-fish <- read.csv("LTER_ForageFish_Inventory.csv")
+fish <- read.csv("raw/LTER_ForageFish_Inventory.csv")
 
 head(fish)
 
@@ -28,6 +28,15 @@ fish1 <- fish %>%
 fish1 %>%
   group_by(Cruise, Species) %>%
   summarise(total_fish = sum(Count), .groups = "drop")
+
+
+fishbongo <- fish1 %>%
+  group_by(Cruise, Species, Station) %>%
+  summarise(total_fish = sum(Count), 
+            bongo = all(Bongo == "Y"),
+            .groups = "drop")
+
+#write.csv(fishbongo, "output/fishbongo20232024.csv")
 
 
 fish2 <- fish %>%
