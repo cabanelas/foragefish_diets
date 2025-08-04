@@ -582,7 +582,30 @@ ggplot(accum_fall_df,
 
 
 
+#### RAREFY
+pres_spr <- d_spring %>% 
+  filter(FishSpecies == "C_har") %>% 
+  distinct(stomach_id, order) %>% 
+  mutate(present = 1) %>% 
+  pivot_wider(names_from=order, values_from=present, values_fill=0) %>% 
+  column_to_rownames("stomach_id")
 
+# same for Fall
+pres_fall <- d_fall %>% 
+  filter(FishSpecies == "C_har") %>% 
+  distinct(stomach_id, order) %>% 
+  mutate(present = 1) %>% 
+  pivot_wider(names_from=order, values_from=present, values_fill=0) %>% 
+  column_to_rownames("stomach_id")
+
+# rarefy to the smaller sample (n=21)
+acc_spr_rarefied <- specaccum(pres_spr, method="random", permutations=100, xlimits=c(1,21))
+acc_fall_rarefied <- specaccum(pres_fall, method="random", permutations=100, xlimits=c(1,21))
+
+par(mfrow = c(1, 1)) 
+plot(acc_spr_rarefied, col="blue", ci.type="polygon", ci.col=rgb(0,0,1,0.2))
+plot(acc_fall_rarefied, col="red", add=TRUE)
+legend("bottomright", c("Spring","Fall"), col=c("blue","red"), lwd=2)
 
 
 
