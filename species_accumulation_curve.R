@@ -24,6 +24,7 @@ library(taxize)
 #            Data -----
 #### ------------------------------------------ #####
 diets <- read.csv(file.path("raw","Concat_Count_EDI.csv"))
+# from published data package
 
 #### ------------------------------------------ #####
 #            Tidy -----
@@ -40,6 +41,16 @@ diets <- diets %>%
 clean_diets <- diets %>%
   filter(!is.na(scientificName_preyTaxon)) %>%
   filter(!scientificName_preyTaxon %in% c("-9999", "Other", "Unknown", "Empty", "UnknownOther", "Animalia"))
+
+# add season 
+clean_diets <- clean_diets %>%
+  mutate(
+    season = case_when(
+      cruise %% 100 == 2  ~ "Spring",
+      cruise %% 100 == 4  ~ "Fall",
+      TRUE                ~ NA_character_
+    )
+  )
 
 # scientificName_preyTaxon 
 presence_matrix <- clean_diets %>%
@@ -155,8 +166,8 @@ accum_df <- left_join(accum_df, plot_species, by = "FishSpecies")
 
 common_names <- c(
   C_har = "Atlantic Herring",
-  P_tri = "Atlantic Mackerel",
-  S_sco = "Butterfish",
+  S_sco = "Atlantic Mackerel",
+  P_tri = "Butterfish",
   A_aes = "Blueback Herring",
   A_pse = "Alewife"
 )
@@ -409,14 +420,6 @@ accum_order_df <- map2_dfr(
 # Join to add stomach threshold
 accum_order_df <- left_join(accum_order_df, plateau_order_df, by = "FishSpecies")
 
-common_names <- c(
-  C_har = "Atlantic Herring",
-  P_tri = "Atlantic Mackerel",
-  S_sco = "Butterfish",
-  A_aes = "Blueback Herring",
-  A_pse = "Alewife"
-)
-
 accum_order_df <- accum_order_df %>%
   filter(FishSpecies %in% names(common_names)) %>%
   mutate(FishCommon = common_names[FishSpecies])
@@ -424,7 +427,8 @@ accum_order_df <- accum_order_df %>%
 text_labels <- distinct(accum_order_df, FishSpecies, FishCommon, stomachs_needed)
 
 
-ggplot(accum_order_df, aes(x = stomachs, y = richness)) +
+(sp_curve_all_taxagroup <- ggplot(accum_order_df, 
+                                 aes(x = stomachs, y = richness)) +
   geom_ribbon(aes(ymin = lower, ymax = upper), 
               fill = "gray80", alpha = 0.5) +
   geom_line(color = "black", linewidth = 1) +
@@ -441,3 +445,144 @@ ggplot(accum_order_df, aes(x = stomachs, y = richness)) +
   theme(strip.text = element_text(face = "bold", size = 14),
         axis.text = element_text(color = "black", size = 10),
         axis.title = element_text(size = 14))
+)
+
+#ggsave("sp_accum_curves_allspecies_taxagroup.png", plot = sp_curve_all_taxagroup, width = 10, height = 6, dpi = 300, bg = "white", units = "in")
+
+#### ------------------------------------------ #####
+#      Curve by season -----
+#### ------------------------------------------ #####
+
+#      SPRING -----
+d_spring <- diets_with_order %>% filter(season=="Spring")
+
+accum_list_spring <- list()
+for (sp in unique_species) {
+  # build presence‐by‐order for this species in Spring
+  sub_df <- d_spring %>%
+    filter(FishSpecies == sp) %>%
+    distinct(stomach_id, order) %>%
+    mutate(present = 1) %>%
+    pivot_wider(names_from  = order,
+                values_from = present,
+                values_fill = 0) %>%
+    column_to_rownames("stomach_id")
+  
+  if (nrow(sub_df) > 1) {
+    accum_list_spring[[sp]] <- specaccum(sub_df, method = "random")
+  }
+}
+
+plateau_spring_df <- map_dfr(accum_list_spring, estimate_plateau, .id = "FishSpecies")
+
+# 4) Build the long tibble for ggplot
+accum_spring_df <- map2_dfr(
+  .x = accum_list_spring[plateau_spring_df$FishSpecies],
+  .y = plateau_spring_df$FishSpecies,
+  ~ tibble(
+    FishSpecies = .y,
+    stomachs    = .x$sites,
+    richness    = .x$richness,
+    sd          = .x$sd,
+    lower       = .x$richness - .x$sd,
+    upper       = .x$richness + .x$sd
+  )
+) %>%
+  left_join(plateau_spring_df, by = "FishSpecies") %>%
+  filter(FishSpecies %in% names(common_names)) %>%
+  mutate(FishCommon = common_names[FishSpecies])
+
+text_labels_spring <- distinct(accum_spring_df, FishSpecies, FishCommon, stomachs_needed)
+
+# 5) Your ggplot, exactly as before, but titled “Spring”
+ggplot(accum_spring_df, 
+       aes(x = stomachs, y = richness)) +
+  geom_ribbon(aes(ymin = lower, ymax = upper), 
+              fill = "gray80", alpha = 0.5) +
+  geom_line(color = "black", linewidth = 1) +
+  facet_wrap(~FishCommon, scales = "free_x") +
+  geom_vline(aes(xintercept = stomachs_needed), 
+             linetype = "dashed", color = "blue") +
+  geom_text(data = text_labels_spring,
+            aes(x = stomachs_needed, y = Inf, 
+                label = paste0(stomachs_needed, " stomachs")),
+            vjust = 1.5, hjust = 1.3, color = "black", size = 3.9) +
+  labs(x = "Number of stomachs", 
+       y = "Cumulative prey orders",
+       title = "Species Accumulation Curves (Prey Orders) — Spring") +
+  theme_minimal(base_size = 12) +
+  theme(strip.text    = element_text(face = "bold", size = 14),
+        axis.text     = element_text(color = "black", size = 10),
+        axis.title    = element_text(size = 14))
+
+
+#      FALL -----
+d_fall   <- diets_with_order %>% filter(season=="Fall")
+
+accum_list_fall <- list()
+for (sp in unique_species) {
+  sub_df <- d_fall %>%
+    filter(FishSpecies == sp) %>%
+    distinct(stomach_id, order) %>%
+    mutate(present = 1) %>%
+    pivot_wider(names_from  = order,
+                values_from = present,
+                values_fill = 0) %>%
+    column_to_rownames("stomach_id")
+  
+  if (nrow(sub_df) > 1) {
+    accum_list_fall[[sp]] <- specaccum(sub_df, method = "random")
+  }
+}
+
+# 2) Compute 95%‐plateau thresholds for Fall
+plateau_fall_df <- map_dfr(accum_list_fall, estimate_plateau, .id = "FishSpecies")
+
+# 3) Build the long tibble for ggplot (Fall)
+accum_fall_df <- map2_dfr(
+  .x = accum_list_fall[plateau_fall_df$FishSpecies],
+  .y = plateau_fall_df$FishSpecies,
+  ~ tibble(
+    FishSpecies = .y,
+    stomachs    = .x$sites,
+    richness    = .x$richness,
+    sd          = .x$sd,
+    lower       = .x$richness - .x$sd,
+    upper       = .x$richness + .x$sd
+  )
+) %>%
+  left_join(plateau_fall_df, by = "FishSpecies") %>%
+  filter(FishSpecies %in% names(common_names)) %>%
+  mutate(FishCommon = common_names[FishSpecies])
+
+text_labels_fall <- distinct(accum_fall_df, FishSpecies, FishCommon, stomachs_needed)
+
+# 4) Plot for Fall
+ggplot(accum_fall_df, 
+       aes(x = stomachs, y = richness)) +
+  geom_ribbon(aes(ymin = lower, ymax = upper), 
+              fill = "gray80", alpha = 0.5) +
+  geom_line(color = "black", linewidth = 1) +
+  facet_wrap(~FishCommon, scales = "free_x") +
+  geom_vline(aes(xintercept = stomachs_needed), 
+             linetype = "dashed", color = "blue") +
+  geom_text(data = text_labels_fall,
+            aes(x = stomachs_needed, y = Inf, 
+                label = paste0(stomachs_needed, " stomachs")),
+            vjust = 1.5, hjust = 1.3, color = "black", size = 3.9) +
+  labs(x = "Number of stomachs", 
+       y = "Cumulative prey orders",
+       title = "Species Accumulation Curves (Prey Orders) — Fall") +
+  theme_minimal(base_size = 12) +
+  theme(strip.text    = element_text(face = "bold", size = 14),
+        axis.text     = element_text(color = "black", size = 10),
+        axis.title    = element_text(size = 14))
+
+
+
+
+
+
+
+
+
